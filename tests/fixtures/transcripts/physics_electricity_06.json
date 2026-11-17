@@ -1,0 +1,32 @@
+{
+  "id": "physics_electricity_06",
+  "expected_domain": "physics_electricity",
+  "transcript": "Good afternoon students. Today we start our chapter on electricity and basic circuits. Let's begin by defining electric charge. Charge Q is measured in Coulombs. Jab electrons flow through a conductive metal wire, that continuous flow constitutes an electric current I, defined mathematically as charge transferred per unit time, I equals Q over t, with the standard unit being the Ampere. For charges to move, there must exist an electrical pressure between two points, known as potential difference or voltage V, measured in Volts using a parallel voltmeter. German physicist Georg Ohm formulated Ohm's Law, stating that under constant physical conditions, current is directly proportional to voltage, V equals I times R. Electrical resistance R depends on conductor length L, cross-sectional area A, and resistivity rho. When connecting components, we contrast Series circuits, where total resistance is the algebraic sum R1 plus R2, with Parallel circuits, where reciprocal addition ensures that each branch receives the full power supply voltage.",
+  "expected_concepts": [
+    "electric charge",
+    "electric current",
+    "ampere",
+    "potential difference",
+    "voltage",
+    "ohm's law",
+    "electrical resistance",
+    "series circuit",
+    "parallel circuit"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "profit",
+    "reflex arc",
+    "sensory neuron",
+    "supervised learning",
+    "precision and recall",
+    "digital wallet",
+    "e-kyc",
+    "sql"
+  ]
+}

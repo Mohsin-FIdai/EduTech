@@ -1,0 +1,1695 @@
+{
+  "id": "a2d19aca-efb9-4dd5-8d4d-422c035ff650",
+  "recording_id": "7d9cd79c-b7cb-487e-884b-115ae5e1edbc",
+  "transcript_id": "051d85a7-b025-43a8-a211-53b662cf0707",
+  "transcript_hash": "dddf5f65480934a9c49fc4d0e610c994bb5598bd7b9dda2b8d240a5cd76dc41b",
+  "preprocessing_version": "1.1.0",
+  "topic_hint": "Operating System",
+  "segments_json": [
+    {
+      "intelligence_segment_id": 0,
+      "source_segment_ids": [
+        "5242e29d-609a-4995-ad75-42bc268fee49"
+      ],
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "llm_text": "Assalamu alaikum everyone.",
+      "match_text": "assalamu alaikum",
+      "confidence": 0.5524,
+      "no_speech_prob": 0.1997,
+      "language": "hi",
+      "translation_source": "dictionary",
+      "source_choice": "repaired_fallback_short_segment",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 1,
+      "source_segment_ids": [
+        "7e6872ef-533a-4545-be00-7173ba051638"
+      ],
+      "start_time": 3.5,
+      "end_time": 10.5,
+      "llm_text": "Acha So today we are going to start an important topic of Operating System and that is Process scheduling.",
+      "match_text": "today going start important topic operating process scheduling",
+      "confidence": 0.5524,
+      "no_speech_prob": 0.1997,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 2,
+      "source_segment_ids": [
+        "a521d710-df6d-4a17-8839-9a19eb7c86fc",
+        "eb913357-460e-4f61-b0d9-70f3c3e663b1",
+        "d8e3349d-bbe6-4300-8551-d20acce3dec5"
+      ],
+      "start_time": 10.5,
+      "end_time": 22.5,
+      "llm_text": "If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running.",
+      "match_text": "opened multiple applications computer example chrome vs code spotify maybe whatsapp desktop think all applications not simultaneously running",
+      "confidence": 0.5524,
+      "no_speech_prob": 0.1997,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 3,
+      "source_segment_ids": [
+        "7aaaa662-a3ee-4798-9ae4-598241f0f4b5"
+      ],
+      "start_time": 22.5,
+      "end_time": 24.5,
+      "llm_text": "So technically the picture is very different.",
+      "match_text": "technically picture different",
+      "confidence": 0.5524,
+      "no_speech_prob": 0.1997,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 4,
+      "source_segment_ids": [
+        "6984b15f-2d38-462e-a6d2-946ee49c0f65"
+      ],
+      "start_time": 24.79,
+      "end_time": 49.54,
+      "llm_text": "CPU in1 a1-2-3-3-3-4-1-2-3-4-5-4.",
+      "match_text": "cpu in1 a1-2-3-3-3-4-1-2-3-4-5-4",
+      "confidence": 0.7554,
+      "no_speech_prob": 0.4097,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 5,
+      "source_segment_ids": [
+        "4efff345-7d57-4b70-8185-71e382aa87a9"
+      ],
+      "start_time": 49.54,
+      "end_time": 57.54,
+      "llm_text": "Lacking Up System has two dozens or hundreds of processes. Coaching Interactive, some backgrounds, some Argentine.",
+      "match_text": "lacking dozens hundreds processes coaching interactive backgrounds argentine",
+      "confidence": 0.4555,
+      "no_speech_prob": 0.3825,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 6,
+      "source_segment_ids": [
+        "f8b6d4d5-9ae6-49fd-80c6-ac19d734bb70"
+      ],
+      "start_time": 57.54,
+      "end_time": 65.54,
+      "llm_text": "And some are already very much waiting for them. Then scheduling becomes a proper decision making problem.",
+      "match_text": "much waiting scheduling proper decision making problem",
+      "confidence": 0.4555,
+      "no_speech_prob": 0.3825,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 7,
+      "source_segment_ids": [
+        "da875614-e05b-41cd-ae73-eebd14462ac6"
+      ],
+      "start_time": 65.54,
+      "end_time": 69.16,
+      "llm_text": "Satsapra yeh humtiint terms clear.",
+      "match_text": "satsapra humtiint terms clear",
+      "confidence": 0.0677,
+      "no_speech_prob": 0.4971,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_fallback_low_chunk_conf",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 8,
+      "source_segment_ids": [
+        "bb3fad2f-9599-4e9a-bee0-8312a2509288",
+        "9a47f8e6-6b33-4114-a7c5-829b700cf35c",
+        "8336a340-0679-42ab-9cbe-5550bb60fe69",
+        "42568863-033e-47ae-87e6-be1b041064bd",
+        "8dcbe6d8-7fe4-40fd-ad5b-6f02336efdae",
+        "c272bbc9-5047-4cf4-8e7e-8ee8caa4c963",
+        "a9d9af6f-a8f2-4202-a5fb-c045a993e419"
+      ],
+      "start_time": 69.25,
+      "end_time": 89.01,
+      "llm_text": "Program Process or Threat Program Basically Inceptions of passive collection For example, When you have an application's executable file on disk on it, it is in the program, when it is executed, it is called running instance, we call it instance, so if I give a Chrome.",
+      "match_text": "program process threat program basically inceptions passive collection example application's executable file disk program executed called running instance instance chrome",
+      "confidence": 0.3829,
+      "no_speech_prob": 0.2113,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 9,
+      "source_segment_ids": [
+        "bb3fad2f-9599-4e9a-bee0-8312a2509288",
+        "9a47f8e6-6b33-4114-a7c5-829b700cf35c",
+        "8336a340-0679-42ab-9cbe-5550bb60fe69",
+        "42568863-033e-47ae-87e6-be1b041064bd",
+        "8dcbe6d8-7fe4-40fd-ad5b-6f02336efdae",
+        "c272bbc9-5047-4cf4-8e7e-8ee8caa4c963",
+        "a9d9af6f-a8f2-4202-a5fb-c045a993e419"
+      ],
+      "start_time": 89.01,
+      "end_time": 99.79,
+      "llm_text": "So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+      "match_text": "different windows context instances run multiple processes perspective",
+      "confidence": 0.3829,
+      "no_speech_prob": 0.2113,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 10,
+      "source_segment_ids": [
+        "a69422c7-2c4d-4ea4-8b4d-76cb3f71952b"
+      ],
+      "start_time": 99.79,
+      "end_time": 102.79,
+      "llm_text": "What is the state of the process?",
+      "match_text": "state process",
+      "confidence": 0.5608,
+      "no_speech_prob": 0.3311,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 11,
+      "source_segment_ids": [
+        "ac646ece-d00b-40e8-92ff-2d469d20b6f7"
+      ],
+      "start_time": 102.79,
+      "end_time": 108.79,
+      "llm_text": "A process is generally new, ready running waiting block and terminated state.",
+      "match_text": "process generally new ready running waiting block terminated state",
+      "confidence": 0.5608,
+      "no_speech_prob": 0.3311,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 12,
+      "source_segment_ids": [
+        "84adbb06-1c1f-4efe-9b67-ae53c028f97a"
+      ],
+      "start_time": 108.79,
+      "end_time": 110.79,
+      "llm_text": "New process is also being created.",
+      "match_text": "new process created",
+      "confidence": 0.5608,
+      "no_speech_prob": 0.3311,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 13,
+      "source_segment_ids": [
+        "5bab2d6d-6d71-4fbd-ae77-1e3b2c6b9097"
+      ],
+      "start_time": 110.79,
+      "end_time": 116.67,
+      "llm_text": "Radiaktable, Radity, CPU is ready for its launch but some other CPU is available.",
+      "match_text": "radiaktable radity cpu ready launch cpu available",
+      "confidence": 0.0942,
+      "no_speech_prob": 0.5383,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 14,
+      "source_segment_ids": [
+        "623c31f7-d0a9-4d98-95bc-4dca24ef17d5"
+      ],
+      "start_time": 116.93,
+      "end_time": 123.93,
+      "llm_text": "RANNING process currently CPU is used, waiting or block process is waiting for any event.",
+      "match_text": "ranning process currently cpu used waiting block process waiting any event",
+      "confidence": 0.4098,
+      "no_speech_prob": 0.4645,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 15,
+      "source_segment_ids": [
+        "ec28740a-f274-47c1-8d41-5d77f0ac7c2b"
+      ],
+      "start_time": 123.93,
+      "end_time": 128.93,
+      "llm_text": "Like disk IO compute and time written main process is finished.",
+      "match_text": "like disk io compute time written process finished",
+      "confidence": 0.4098,
+      "no_speech_prob": 0.4645,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 16,
+      "source_segment_ids": [
+        "ed461385-68ca-4039-9757-8b00a61e1366"
+      ],
+      "start_time": 128.93,
+      "end_time": 131.93,
+      "llm_text": "Here common confusion is shown.",
+      "match_text": "common confusion shown",
+      "confidence": 0.4098,
+      "no_speech_prob": 0.4645,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 17,
+      "source_segment_ids": [
+        "d93ad971-5ed4-4b99-bae9-85d30fd5d3d4"
+      ],
+      "start_time": 131.93,
+      "end_time": 136.93,
+      "llm_text": "Sir, if the process is ready, then why don't you give CPU?",
+      "match_text": "sir process ready don't cpu",
+      "confidence": 0.4098,
+      "no_speech_prob": 0.4645,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 18,
+      "source_segment_ids": [
+        "627cc469-1cf5-46f3-8319-b8d83ec243fb"
+      ],
+      "start_time": 136.93,
+      "end_time": 144.29,
+      "llm_text": "DSA is only the process of CP using.",
+      "match_text": "dsa only process cp using",
+      "confidence": 0.0254,
+      "no_speech_prob": 0.4978,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 19,
+      "source_segment_ids": [
+        "70a2dbdf-37b4-4a6e-8c75-33769165cd91"
+      ],
+      "start_time": 168.97,
+      "end_time": 176.97,
+      "llm_text": "Now we have come to the first process, first time we have to start the process, first time we have to start it.",
+      "match_text": "come process time start process time start",
+      "confidence": 0.4088,
+      "no_speech_prob": 0.4106,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 20,
+      "source_segment_ids": [
+        "65823572-ddfd-4205-be43-598f9b5394c2"
+      ],
+      "start_time": 176.97,
+      "end_time": 182.97,
+      "llm_text": "Maybe we have to see priority scheduling of the process, maybe every process is equal time, slices of them.",
+      "match_text": "maybe priority scheduling process maybe every process equal time slices",
+      "confidence": 0.4088,
+      "no_speech_prob": 0.4106,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 21,
+      "source_segment_ids": [
+        "b4474969-5e97-415a-9b17-904bf792f8fa"
+      ],
+      "start_time": 182.97,
+      "end_time": 186.97,
+      "llm_text": "These different processes are called scheduling algorithms.",
+      "match_text": "different processes called scheduling algorithms",
+      "confidence": 0.4088,
+      "no_speech_prob": 0.4106,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 22,
+      "source_segment_ids": [
+        "4a10902b-7944-440f-85f3-b3c7f3e401d1",
+        "99212d41-5ada-4ae0-975b-9c7630600588"
+      ],
+      "start_time": 186.97,
+      "end_time": 212.69,
+      "llm_text": "M outset see a face hai a tea artist scheduling around urban disregarding.",
+      "match_text": "m outset face tea artist scheduling urban disregarding",
+      "confidence": 0.0112,
+      "no_speech_prob": 0.1282,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 23,
+      "source_segment_ids": [
+        "203f83a6-7374-4ad7-8099-ede64019943a"
+      ],
+      "start_time": 212.69,
+      "end_time": 218.69,
+      "llm_text": "In Algorithms I will explain the importance of exam and definition of numerical questions.",
+      "match_text": "algorithms explain importance exam definition numerical questions",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 24,
+      "source_segment_ids": [
+        "7a6b137f-0582-4182-b47d-25759b08b070"
+      ],
+      "start_time": 218.69,
+      "end_time": 225.69,
+      "llm_text": "I will explain the example of all algorithms and then I will give the same answer.",
+      "match_text": "explain example all algorithms answer",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 25,
+      "source_segment_ids": [
+        "53581bfd-9a49-44b2-bacd-df0556245b9a"
+      ],
+      "start_time": 225.69,
+      "end_time": 229.69,
+      "llm_text": "Let's start with FCFS.",
+      "match_text": "let's start fcfs",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 26,
+      "source_segment_ids": [
+        "e4ccc206-7145-4c2a-8e46-25902d5ea52b"
+      ],
+      "start_time": 229.69,
+      "end_time": 231.69,
+      "llm_text": "FCFS means first come first served.",
+      "match_text": "fcfs means come served",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 27,
+      "source_segment_ids": [
+        "e76e79b8-b6a4-426b-9269-bb846f29940d"
+      ],
+      "start_time": 231.69,
+      "end_time": 233.69,
+      "llm_text": "The idea of the name is coming.",
+      "match_text": "idea coming",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 28,
+      "source_segment_ids": [
+        "cd3d1be5-0598-42ed-93a5-c0412cd7d5d1",
+        "2fb94884-229f-4d91-a3b8-8d5c4814fdaf"
+      ],
+      "start_time": 233.69,
+      "end_time": 237.69,
+      "llm_text": "The first CPU that came in the ADQ, will be found in the CPU.",
+      "match_text": "cpu came adq cpu",
+      "confidence": 0.4171,
+      "no_speech_prob": 0.3241,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 29,
+      "source_segment_ids": [
+        "533ecce2-5ca1-4556-bac0-7f4e64eb57c9"
+      ],
+      "start_time": 245.82,
+      "end_time": 252.82,
+      "llm_text": "P2 and P3 are waiting for P1 to be complete after 8mins.",
+      "match_text": "p2 p3 waiting p1 complete 8mins",
+      "confidence": 0.4342,
+      "no_speech_prob": 0.3687,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 30,
+      "source_segment_ids": [
+        "683e1384-21a7-4a4b-aaa1-f9478876b394"
+      ],
+      "start_time": 252.82,
+      "end_time": 255.82,
+      "llm_text": "P3 is the first time only for 5mins.",
+      "match_text": "p3 time only 5mins",
+      "confidence": 0.4342,
+      "no_speech_prob": 0.3687,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 31,
+      "source_segment_ids": [
+        "16bc6d21-e4b0-43eb-9fbe-2c0bb7309fdf"
+      ],
+      "start_time": 255.82,
+      "end_time": 259.82,
+      "llm_text": "But we have to wait for P1 to be complete for 8mins.",
+      "match_text": "wait p1 complete 8mins",
+      "confidence": 0.4342,
+      "no_speech_prob": 0.3687,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 32,
+      "source_segment_ids": [
+        "c6a40bf0-c1dd-4c1b-924b-a5edfd2a996b"
+      ],
+      "start_time": 259.82,
+      "end_time": 264.82,
+      "llm_text": "A small process is facing unnecessary delay.",
+      "match_text": "small process facing unnecessary delay",
+      "confidence": 0.4342,
+      "no_speech_prob": 0.3687,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 33,
+      "source_segment_ids": [
+        "4ece0775-9110-412a-89a6-740ca9246634"
+      ],
+      "start_time": 269.36,
+      "end_time": 275.36,
+      "llm_text": "Basically short process, a long process is used in the future line.",
+      "match_text": "basically short process long process used future line",
+      "confidence": 0.3916,
+      "no_speech_prob": 0.202,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 34,
+      "source_segment_ids": [
+        "6c35906c-b4a5-4d86-a67f-30076d1a4910"
+      ],
+      "start_time": 275.36,
+      "end_time": 279.36,
+      "llm_text": "Like motorway, there is a slow truck and the rear of it is a complete line.",
+      "match_text": "like motorway slow truck rear complete line",
+      "confidence": 0.3916,
+      "no_speech_prob": 0.202,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 35,
+      "source_segment_ids": [
+        "5073a4d2-170e-4db8-9cb4-81cb80f22b37"
+      ],
+      "start_time": 279.36,
+      "end_time": 284.36,
+      "llm_text": "The car is theoretically fast and the practical speed slow is being tracked.",
+      "match_text": "car theoretically fast practical speed slow tracked",
+      "confidence": 0.3916,
+      "no_speech_prob": 0.202,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 36,
+      "source_segment_ids": [
+        "7787ed3d-484f-4507-8ab8-0761dc2f79dd"
+      ],
+      "start_time": 284.36,
+      "end_time": 288.36,
+      "llm_text": "The same concept, even in CPU scheduling.",
+      "match_text": "concept cpu scheduling",
+      "confidence": 0.3916,
+      "no_speech_prob": 0.202,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 37,
+      "source_segment_ids": [
+        "248bc337-061c-49c8-82bb-68e6acc202dd",
+        "06865b87-4813-4132-b9f8-d805838a72df"
+      ],
+      "start_time": 288.36,
+      "end_time": 298.33,
+      "llm_text": "FCFS advantage is that, if we are not able to see the standard of the system Kultur & biennil.",
+      "match_text": "fcfs advantage not able standard kultur biennil",
+      "confidence": 0.0082,
+      "no_speech_prob": 0.202,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 38,
+      "source_segment_ids": [
+        "4740d3af-1d73-41d7-98aa-4cde958ce9ee"
+      ],
+      "start_time": 323.84,
+      "end_time": 332.84,
+      "llm_text": "P2 is a rival time one completion time 10, first time 2, so turnaround time 10 minus 1 equals 9.",
+      "match_text": "p2 rival time completion time 10 time 2 turnaround time 10 minus 1 equals 9",
+      "confidence": 0.5099,
+      "no_speech_prob": 0.0872,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 39,
+      "source_segment_ids": [
+        "c2bbc8e3-49bc-4e59-85a7-fd4ada03e348",
+        "10dad103-c16c-4945-9c7a-d9ae6e0cc8d0"
+      ],
+      "start_time": 332.84,
+      "end_time": 342.84,
+      "llm_text": "Or waiting time 9 minus 2 equals 7 milliseconds. So P2 in actually CPU percent 2 milliseconds are calm here. But it's not total 9 milliseconds system is spent here.",
+      "match_text": "waiting time 9 minus 2 equals 7 milliseconds p2 actually cpu percent 2 milliseconds calm it's not total 9 milliseconds spent",
+      "confidence": 0.5099,
+      "no_speech_prob": 0.0872,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 40,
+      "source_segment_ids": [
+        "addce378-0986-4839-9367-5d4b02123a16"
+      ],
+      "start_time": 342.84,
+      "end_time": 345.84,
+      "llm_text": "Now, next algorithm is shortest job first.",
+      "match_text": "algorithm shortest job",
+      "confidence": 0.446,
+      "no_speech_prob": 0.1609,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 41,
+      "source_segment_ids": [
+        "983526ac-93fb-4ece-8bf7-d61336e03193"
+      ],
+      "start_time": 345.84,
+      "end_time": 347.84,
+      "llm_text": "Go, SJF.",
+      "match_text": "sjf",
+      "confidence": 0.446,
+      "no_speech_prob": 0.1609,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_fallback_short_segment",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 42,
+      "source_segment_ids": [
+        "24cb1354-05c3-499d-8592-53e9de990454"
+      ],
+      "start_time": 347.84,
+      "end_time": 373.61,
+      "llm_text": "System.",
+      "match_text": "",
+      "confidence": 0.071,
+      "no_speech_prob": 0.1457,
+      "language": "hi",
+      "translation_source": "passthrough",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 43,
+      "source_segment_ids": [
+        "122fb768-0df8-450f-9bfa-44a7b52280a3",
+        "95bec903-2474-465c-adae-bfd9f5a125f3"
+      ],
+      "start_time": 375.61,
+      "end_time": 406.0,
+      "llm_text": "Operating System P1-10 post-pone process is done. I mean, we can wait for it for a long time.",
+      "match_text": "operating p1-10 post-pone process mean wait long time",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.2932,
+      "language": "hi",
+      "translation_source": "passthrough",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 44,
+      "source_segment_ids": [
+        "ff213ffa-6681-4f86-8c4d-627d69996c31"
+      ],
+      "start_time": 406.0,
+      "end_time": 409.52,
+      "llm_text": "Now, we will reduce the related funds.",
+      "match_text": "reduce related funds",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 45,
+      "source_segment_ids": [
+        "a45dc729-564d-45b2-a367-9d4b78c91e94"
+      ],
+      "start_time": 410.52,
+      "end_time": 413.52,
+      "llm_text": "We have to prevent paging process.",
+      "match_text": "prevent paging process",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 46,
+      "source_segment_ids": [
+        "7e2ad663-deec-4277-b4ab-ba5a28a2cc48"
+      ],
+      "start_time": 413.52,
+      "end_time": 418.52,
+      "llm_text": "If the process is very long, we can increase the period of the operating system.",
+      "match_text": "process long increase period operating",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 47,
+      "source_segment_ids": [
+        "6b5fa687-ae86-49ba-a17c-333882b766b8"
+      ],
+      "start_time": 418.52,
+      "end_time": 422.52,
+      "llm_text": "We are saying, it is good. You wait for a long time.",
+      "match_text": "saying good wait long time",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "passthrough",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 48,
+      "source_segment_ids": [
+        "df5bc3b3-946f-48d7-ba26-0220aeb3c428"
+      ],
+      "start_time": 422.52,
+      "end_time": 424.52,
+      "llm_text": "Now, our priority increases.",
+      "match_text": "priority increases",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 49,
+      "source_segment_ids": [
+        "4550bd90-ecfd-4a30-9098-d30e79152cc6"
+      ],
+      "start_time": 424.52,
+      "end_time": 427.52,
+      "llm_text": "So, paging is a technique for preventing.",
+      "match_text": "paging technique preventing",
+      "confidence": 0.3788,
+      "no_speech_prob": 0.3277,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 50,
+      "source_segment_ids": [
+        "753d5a87-61b3-41ba-9f33-dae8fcb5f37d"
+      ],
+      "start_time": 427.52,
+      "end_time": 431.5,
+      "llm_text": "In Definite Post-Ponament.",
+      "match_text": "definite post-ponament",
+      "confidence": 0.4224,
+      "no_speech_prob": 0.2555,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 51,
+      "source_segment_ids": [
+        "a27d44b4-87c9-4ace-b146-7f6714ef97fc"
+      ],
+      "start_time": 431.5,
+      "end_time": 438.3,
+      "llm_text": "Now, SGF's preemptive version is understood by the system call shortest remaining time.",
+      "match_text": "sgf's preemptive version understood shortest remaining time",
+      "confidence": 0.4224,
+      "no_speech_prob": 0.2555,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 52,
+      "source_segment_ids": [
+        "93aa3887-bcdf-4862-8c8e-4defcc29fbcb"
+      ],
+      "start_time": 438.3,
+      "end_time": 441.3,
+      "llm_text": "First, SRTF.",
+      "match_text": "srtf",
+      "confidence": 0.4224,
+      "no_speech_prob": 0.2555,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_fallback_short_segment",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    },
+    {
+      "intelligence_segment_id": 53,
+      "source_segment_ids": [
+        "d3867b98-8206-4dfa-9ec1-3c85d303794f"
+      ],
+      "start_time": 441.3,
+      "end_time": 445.14,
+      "llm_text": "Different subtlety is important.",
+      "match_text": "different subtlety important",
+      "confidence": 0.4224,
+      "no_speech_prob": 0.2555,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 54,
+      "source_segment_ids": [
+        "10f03630-14b3-4c9f-9d86-94ed647ec5fc",
+        "b708ac8e-c2aa-4f97-96b3-12197dc3fd70"
+      ],
+      "start_time": 445.14,
+      "end_time": 451.9,
+      "llm_text": "SGF's non-preemptive is the one-suprocessed sketch if you would normally continue the until it burst finishes.",
+      "match_text": "sgf's non-preemptive one-suprocessed sketch normally continue burst finishes",
+      "confidence": 0.4043,
+      "no_speech_prob": 0.2555,
+      "language": "en",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 55,
+      "source_segment_ids": [
+        "ad13a41b-da5d-48c8-9c9f-bb62e84ef07f"
+      ],
+      "start_time": 451.9,
+      "end_time": 458.72,
+      "llm_text": "Assertif,if a new process arrives then the remaining bus currently running process is shot.",
+      "match_text": "assertif new process arrives remaining bus currently running process shot",
+      "confidence": 0.4573,
+      "no_speech_prob": 0.5655,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 56,
+      "source_segment_ids": [
+        "fac3c5b4-951f-4f5f-836e-5440bc6514a6"
+      ],
+      "start_time": 458.72,
+      "end_time": 462.72,
+      "llm_text": "Scorchler current process can be preemptive.",
+      "match_text": "scorchler current process preemptive",
+      "confidence": 0.4573,
+      "no_speech_prob": 0.5655,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 57,
+      "source_segment_ids": [
+        "84bb1a1f-b238-4650-98ed-ef4b97bc26d7"
+      ],
+      "start_time": 462.72,
+      "end_time": 472.72,
+      "llm_text": "For example, p1 starts with the bus of 8 milliseconds after 2 milliseconds, p2 arrives with the bus of 3 milliseconds.",
+      "match_text": "example p1 starts bus 8 milliseconds 2 milliseconds p2 arrives bus 3 milliseconds",
+      "confidence": 0.4573,
+      "no_speech_prob": 0.5655,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_english_dominant",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "high"
+    },
+    {
+      "intelligence_segment_id": 58,
+      "source_segment_ids": [
+        "e4454dc7-e220-4657-9ef1-d4164e282bdd"
+      ],
+      "start_time": 472.72,
+      "end_time": 476.72,
+      "llm_text": "P1,2,3,3,4.",
+      "match_text": "p1 2 3 3 4",
+      "confidence": 0.3747,
+      "no_speech_prob": 0.1721,
+      "language": "hi",
+      "translation_source": "local_llm",
+      "source_choice": "repaired_fallback_short_segment",
+      "retention_ratio": 1.0,
+      "is_fallback": false,
+      "trust": "low"
+    }
+  ],
+  "full_llm_text": "Assalamu alaikum everyone. Acha So today we are going to start an important topic of Operating System and that is Process scheduling. If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running. So technically the picture is very different. CPU in1 a1-2-3-3-3-4-1-2-3-4-5-4. Lacking Up System has two dozens or hundreds of processes. Coaching Interactive, some backgrounds, some Argentine. And some are already very much waiting for them. Then scheduling becomes a proper decision making problem. Satsapra yeh humtiint terms clear. Program Process or Threat Program Basically Inceptions of passive collection For example, When you have an application's executable file on disk on it, it is in the program, when it is executed, it is called running instance, we call it instance, so if I give a Chrome. So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system. What is the state of the process? A process is generally new, ready running waiting block and terminated state. New process is also being created. Radiaktable, Radity, CPU is ready for its launch but some other CPU is available. RANNING process currently CPU is used, waiting or block process is waiting for any event. Like disk IO compute and time written main process is finished. Here common confusion is shown. Sir, if the process is ready, then why don't you give CPU? DSA is only the process of CP using. Now we have come to the first process, first time we have to start the process, first time we have to start it. Maybe we have to see priority scheduling of the process, maybe every process is equal time, slices of them. These different processes are called scheduling algorithms. M outset see a face hai a tea artist scheduling around urban disregarding. In Algorithms I will explain the importance of exam and definition of numerical questions. I will explain the example of all algorithms and then I will give the same answer. Let's start with FCFS. FCFS means first come first served. The idea of the name is coming. The first CPU that came in the ADQ, will be found in the CPU. P2 and P3 are waiting for P1 to be complete after 8mins. P3 is the first time only for 5mins. But we have to wait for P1 to be complete for 8mins. A small process is facing unnecessary delay. Basically short process, a long process is used in the future line. Like motorway, there is a slow truck and the rear of it is a complete line. The car is theoretically fast and the practical speed slow is being tracked. The same concept, even in CPU scheduling. FCFS advantage is that, if we are not able to see the standard of the system Kultur & biennil. P2 is a rival time one completion time 10, first time 2, so turnaround time 10 minus 1 equals 9. Or waiting time 9 minus 2 equals 7 milliseconds. So P2 in actually CPU percent 2 milliseconds are calm here. But it's not total 9 milliseconds system is spent here. Now, next algorithm is shortest job first. Go, SJF. System. Operating System P1-10 post-pone process is done. I mean, we can wait for it for a long time. Now, we will reduce the related funds. We have to prevent paging process. If the process is very long, we can increase the period of the operating system. We are saying, it is good. You wait for a long time. Now, our priority increases. So, paging is a technique for preventing. In Definite Post-Ponament. Now, SGF's preemptive version is understood by the system call shortest remaining time. First, SRTF. Different subtlety is important. SGF's non-preemptive is the one-suprocessed sketch if you would normally continue the until it burst finishes. Assertif,if a new process arrives then the remaining bus currently running process is shot. Scorchler current process can be preemptive. For example, p1 starts with the bus of 8 milliseconds after 2 milliseconds, p2 arrives with the bus of 3 milliseconds. P1,2,3,3,4.",
+  "full_match_text": "assalamu alaikum today going start important topic operating process scheduling opened multiple applications computer example chrome vs code spotify maybe whatsapp desktop think all applications not simultaneously running technically picture different cpu in1 a1-2-3-3-3-4-1-2-3-4-5-4 lacking dozens hundreds processes coaching interactive backgrounds argentine much waiting scheduling proper decision making problem satsapra humtiint terms clear program process threat program basically inceptions passive collection example application's executable file disk program executed called running instance instance chrome different windows context instances run multiple processes perspective state process process generally new ready running waiting block terminated state new process created radiaktable radity cpu ready launch cpu available ranning process currently cpu used waiting block process waiting any event like disk io compute time written process finished common confusion shown sir process ready don't cpu dsa only process cp using come process time start process time start maybe priority scheduling process maybe every process equal time slices different processes called scheduling algorithms m outset face tea artist scheduling urban disregarding algorithms explain importance exam definition numerical questions explain example all algorithms answer let's start fcfs fcfs means come served idea coming cpu came adq cpu p2 p3 waiting p1 complete 8mins p3 time only 5mins wait p1 complete 8mins small process facing unnecessary delay basically short process long process used future line like motorway slow truck rear complete line car theoretically fast practical speed slow tracked concept cpu scheduling fcfs advantage not able standard kultur biennil p2 rival time completion time 10 time 2 turnaround time 10 minus 1 equals 9 waiting time 9 minus 2 equals 7 milliseconds p2 actually cpu percent 2 milliseconds calm it's not total 9 milliseconds spent algorithm shortest job sjf operating p1-10 post-pone process mean wait long time reduce related funds prevent paging process process long increase period operating saying good wait long time priority increases paging technique preventing definite post-ponament sgf's preemptive version understood shortest remaining time srtf different subtlety important sgf's non-preemptive one-suprocessed sketch normally continue burst finishes assertif new process arrives remaining bus currently running process shot scorchler current process preemptive example p1 starts bus 8 milliseconds 2 milliseconds p2 arrives bus 3 milliseconds p1 2 3 3 4",
+  "rule_stats_json": {
+    "total_input_segments": 72,
+    "s0_numeric_reverts": 0,
+    "s0_english_reverts": 11,
+    "s0_revert_samples": [
+      {
+        "seg": "4efff345-7d57-4b70-8185-71e382aa87a9",
+        "orig": "two",
+        "corrupt": "wo",
+        "type": "english",
+        "context_before": "Lacking Up System has",
+        "context_after": "dozens or hundreds of processes."
+      },
+      {
+        "seg": "bb3fad2f-9599-4e9a-bee0-8312a2509288",
+        "orig": "Threat",
+        "corrupt": "thread",
+        "type": "english",
+        "context_before": "Program Process or",
+        "context_after": "Program Basically Inceptions of passive"
+      },
+      {
+        "seg": "a9d9af6f-a8f2-4202-a5fb-c045a993e419",
+        "orig": "two",
+        "corrupt": "wo",
+        "type": "english",
+        "context_before": "So if I have",
+        "context_after": "different windows in the context"
+      },
+      {
+        "seg": "ec28740a-f274-47c1-8d41-5d77f0ac7c2b",
+        "orig": "written",
+        "corrupt": "waiting",
+        "type": "english",
+        "context_before": "disk IO compute and time",
+        "context_after": "main process is finished."
+      },
+      {
+        "seg": "ec28740a-f274-47c1-8d41-5d77f0ac7c2b",
+        "orig": "main",
+        "corrupt": "mein",
+        "type": "english",
+        "context_before": "IO compute and time written",
+        "context_after": "process is finished."
+      },
+      {
+        "seg": "d93ad971-5ed4-4b99-bae9-85d30fd5d3d4",
+        "orig": "Sir,",
+        "corrupt": "Sirf",
+        "type": "english",
+        "context_before": "",
+        "context_after": "if the process is ready,"
+      },
+      {
+        "seg": "65823572-ddfd-4205-be43-598f9b5394c2",
+        "orig": "slices",
+        "corrupt": "slides",
+        "type": "english",
+        "context_before": "every process is equal time,",
+        "context_after": "of them."
+      },
+      {
+        "seg": "4740d3af-1d73-41d7-98aa-4cde958ce9ee",
+        "orig": "rival",
+        "corrupt": "arrival",
+        "type": "english",
+        "context_before": "P2 is a",
+        "context_after": "time one completion time 10,"
+      },
+      {
+        "seg": "4740d3af-1d73-41d7-98aa-4cde958ce9ee",
+        "orig": "one",
+        "corrupt": "ne",
+        "type": "english",
+        "context_before": "P2 is a rival time",
+        "context_after": "completion time 10, first time"
+      },
+      {
+        "seg": "4740d3af-1d73-41d7-98aa-4cde958ce9ee",
+        "orig": "first",
+        "corrupt": "arrival",
+        "type": "english",
+        "context_before": "time one completion time 10,",
+        "context_after": "time 2, so turnaround time"
+      },
+      {
+        "seg": "a45dc729-564d-45b2-a367-9d4b78c91e94",
+        "orig": "paging",
+        "corrupt": "aging",
+        "type": "english",
+        "context_before": "We have to prevent",
+        "context_after": "process."
+      }
+    ],
+    "s0_unsure_reverts": [],
+    "source_choices": {
+      "repaired_fallback_short_segment": 4,
+      "repaired_english_dominant": 66,
+      "repaired_fallback_low_chunk_conf": 2
+    },
+    "trust_counts": {
+      "high": 37,
+      "low": 22
+    },
+    "s2_category_counts": {
+      "a_topic_hint": 9,
+      "b_acronyms": 21,
+      "c_code_tokens": 1,
+      "d_digits_units": 16,
+      "e_mid_sentence_caps": 2,
+      "e_raw_phrase_recap": 0
+    },
+    "rule_counts": {
+      "S1_unicode_whitespace": 0,
+      "S2_protected_terms_masked": 49,
+      "S3_dropped_acoustic": 0,
+      "S3_dropped_hallucination": 0,
+      "S3_dropped_empty": 0,
+      "S3_loop_collapsed": 0,
+      "S4_pure_fillers_removed": 0,
+      "S4_stutters_collapsed": 0,
+      "S5_roman_urdu_canonicalized": 0,
+      "S6_segments_merged": 14,
+      "S7_terminal_punct_restored": 7,
+      "S7_runons_split": 1,
+      "S8_retention_fallbacks": 0
+    },
+    "dropped_segments": [],
+    "fallback_segments": [],
+    "segment_baselines": {
+      "5242e29d-609a-4995-ad75-42bc268fee49": {
+        "raw_hash": "00fadb26a0987195",
+        "norm_hash": "00fadb26a0987195",
+        "eng_hash": "00fadb26a0987195"
+      },
+      "7e6872ef-533a-4545-be00-7173ba051638": {
+        "raw_hash": "51875a2e1058ccde",
+        "norm_hash": "2e9d0bbbc2fe62c5",
+        "eng_hash": "b98fe1f0df4c5a63"
+      },
+      "a521d710-df6d-4a17-8839-9a19eb7c86fc": {
+        "raw_hash": "c6b73b5bad7dbab4",
+        "norm_hash": "c6b73b5bad7dbab4",
+        "eng_hash": "3635693a6508d7d7"
+      },
+      "eb913357-460e-4f61-b0d9-70f3c3e663b1": {
+        "raw_hash": "1d4d47a1ee33deae",
+        "norm_hash": "aaf137834a6c89b9",
+        "eng_hash": "1bf52ab22988eb57"
+      },
+      "d8e3349d-bbe6-4300-8551-d20acce3dec5": {
+        "raw_hash": "63b8e4cd1144ea55",
+        "norm_hash": "63b8e4cd1144ea55",
+        "eng_hash": "75259cd2963d010a"
+      },
+      "7aaaa662-a3ee-4798-9ae4-598241f0f4b5": {
+        "raw_hash": "5ada85aea44cd6da",
+        "norm_hash": "5ada85aea44cd6da",
+        "eng_hash": "a40edb8d24518a30"
+      },
+      "6984b15f-2d38-462e-a6d2-946ee49c0f65": {
+        "raw_hash": "f7adc038e6ca0377",
+        "norm_hash": "f7adc038e6ca0377",
+        "eng_hash": "b23440283b24a8db"
+      },
+      "4efff345-7d57-4b70-8185-71e382aa87a9": {
+        "raw_hash": "bde04a8071555583",
+        "norm_hash": "9361c5efba1a3bea",
+        "eng_hash": "c17c56a8e9f8b976"
+      },
+      "f8b6d4d5-9ae6-49fd-80c6-ac19d734bb70": {
+        "raw_hash": "36851be09b9525f5",
+        "norm_hash": "36851be09b9525f5",
+        "eng_hash": "d82e1f987db90305"
+      },
+      "da875614-e05b-41cd-ae73-eebd14462ac6": {
+        "raw_hash": "bc59a5b21bcfa7d8",
+        "norm_hash": "74375a7ee218ff71",
+        "eng_hash": "66866b080f080a7c"
+      },
+      "bb3fad2f-9599-4e9a-bee0-8312a2509288": {
+        "raw_hash": "a4588b957bee6b2c",
+        "norm_hash": "74ca38fe4c4c6206",
+        "eng_hash": "6ab99739b6a4c3a8"
+      },
+      "9a47f8e6-6b33-4114-a7c5-829b700cf35c": {
+        "raw_hash": "4d37c00259779fb2",
+        "norm_hash": "4ccd5eac3fc2480b",
+        "eng_hash": "36f4567cc26df858"
+      },
+      "8336a340-0679-42ab-9cbe-5550bb60fe69": {
+        "raw_hash": "e75818da5a1ebd43",
+        "norm_hash": "e75818da5a1ebd43",
+        "eng_hash": "291d56df87a839bc"
+      },
+      "42568863-033e-47ae-87e6-be1b041064bd": {
+        "raw_hash": "74eaf034bdc9e1f9",
+        "norm_hash": "74eaf034bdc9e1f9",
+        "eng_hash": "f031eb8963dbebef"
+      },
+      "8dcbe6d8-7fe4-40fd-ad5b-6f02336efdae": {
+        "raw_hash": "f7732de5b2b2448f",
+        "norm_hash": "f7732de5b2b2448f",
+        "eng_hash": "5e1a8c967de940d9"
+      },
+      "c272bbc9-5047-4cf4-8e7e-8ee8caa4c963": {
+        "raw_hash": "3a4c5c69b0d1e392",
+        "norm_hash": "3a4c5c69b0d1e392",
+        "eng_hash": "3a4c5c69b0d1e392"
+      },
+      "a9d9af6f-a8f2-4202-a5fb-c045a993e419": {
+        "raw_hash": "8c24d8b5e5847ae9",
+        "norm_hash": "1045255f1ffdd0a2",
+        "eng_hash": "c6af9b0f86e80f07"
+      },
+      "a69422c7-2c4d-4ea4-8b4d-76cb3f71952b": {
+        "raw_hash": "dcbef705d605bc50",
+        "norm_hash": "0c2f94a695b72803",
+        "eng_hash": "0b8d59a5923837a1"
+      },
+      "ac646ece-d00b-40e8-92ff-2d469d20b6f7": {
+        "raw_hash": "e66a23210eda44db",
+        "norm_hash": "e66a23210eda44db",
+        "eng_hash": "558904a0746ac690"
+      },
+      "84adbb06-1c1f-4efe-9b67-ae53c028f97a": {
+        "raw_hash": "15815a35da8333eb",
+        "norm_hash": "15815a35da8333eb",
+        "eng_hash": "1f6d984d93087985"
+      },
+      "5bab2d6d-6d71-4fbd-ae77-1e3b2c6b9097": {
+        "raw_hash": "aad5f850b1f973fa",
+        "norm_hash": "aad5f850b1f973fa",
+        "eng_hash": "aa9bdac4bf2abd19"
+      },
+      "623c31f7-d0a9-4d98-95bc-4dca24ef17d5": {
+        "raw_hash": "f1bea5a55d4d5802",
+        "norm_hash": "f1bea5a55d4d5802",
+        "eng_hash": "f824a4a0167f0b6d"
+      },
+      "ec28740a-f274-47c1-8d41-5d77f0ac7c2b": {
+        "raw_hash": "f896a5e450c776ee",
+        "norm_hash": "c5845e7a70464ce8",
+        "eng_hash": "b06effa33de70c50"
+      },
+      "ed461385-68ca-4039-9757-8b00a61e1366": {
+        "raw_hash": "488762e8ba47ecaa",
+        "norm_hash": "488762e8ba47ecaa",
+        "eng_hash": "9a36f8dd3b37963c"
+      },
+      "d93ad971-5ed4-4b99-bae9-85d30fd5d3d4": {
+        "raw_hash": "c94bf93a3f590a9a",
+        "norm_hash": "b057864b0299a955",
+        "eng_hash": "7805240fecc498e3"
+      },
+      "627cc469-1cf5-46f3-8319-b8d83ec243fb": {
+        "raw_hash": "13bfdc62845e69e7",
+        "norm_hash": "13bfdc62845e69e7",
+        "eng_hash": "9196292f74dd94da"
+      },
+      "70a2dbdf-37b4-4a6e-8c75-33769165cd91": {
+        "raw_hash": "320c34225f83240d",
+        "norm_hash": "320c34225f83240d",
+        "eng_hash": "cd1807e70c170d7b"
+      },
+      "65823572-ddfd-4205-be43-598f9b5394c2": {
+        "raw_hash": "2c1bdab5f642349c",
+        "norm_hash": "673e0e41e773c76d",
+        "eng_hash": "2fa63d4a273697f3"
+      },
+      "b4474969-5e97-415a-9b17-904bf792f8fa": {
+        "raw_hash": "49aa530dfabd04be",
+        "norm_hash": "a10ac352098fd05f",
+        "eng_hash": "30edc6988cb2bb0b"
+      },
+      "4a10902b-7944-440f-85f3-b3c7f3e401d1": {
+        "raw_hash": "751de0231da1d322",
+        "norm_hash": "547d358564ff7b1d",
+        "eng_hash": "91ae5097051b4731"
+      },
+      "99212d41-5ada-4ae0-975b-9c7630600588": {
+        "raw_hash": "c8bac169a3e11130",
+        "norm_hash": "c8bac169a3e11130",
+        "eng_hash": "dfc75c9b70799944"
+      },
+      "203f83a6-7374-4ad7-8099-ede64019943a": {
+        "raw_hash": "6f240c1807b64be2",
+        "norm_hash": "c1704ae4037bd46f",
+        "eng_hash": "b56fd7b7b3f45051"
+      },
+      "7a6b137f-0582-4182-b47d-25759b08b070": {
+        "raw_hash": "4678918b8b08edb3",
+        "norm_hash": "4678918b8b08edb3",
+        "eng_hash": "b87f6971adf61d7a"
+      },
+      "53581bfd-9a49-44b2-bacd-df0556245b9a": {
+        "raw_hash": "8309e7fb11ff94ee",
+        "norm_hash": "8309e7fb11ff94ee",
+        "eng_hash": "42a81eb4ed8aa2f1"
+      },
+      "e4ccc206-7145-4c2a-8e46-25902d5ea52b": {
+        "raw_hash": "d5391cd53f71dc3e",
+        "norm_hash": "d5391cd53f71dc3e",
+        "eng_hash": "d41587caa2a1a5eb"
+      },
+      "e76e79b8-b6a4-426b-9269-bb846f29940d": {
+        "raw_hash": "9afb15fec0d0bd8b",
+        "norm_hash": "9afb15fec0d0bd8b",
+        "eng_hash": "0f3c6ae5a6c3cb4b"
+      },
+      "cd3d1be5-0598-42ed-93a5-c0412cd7d5d1": {
+        "raw_hash": "dbbb414ae83d39ba",
+        "norm_hash": "dbbb414ae83d39ba",
+        "eng_hash": "787a4732c3e94435"
+      },
+      "2fb94884-229f-4d91-a3b8-8d5c4814fdaf": {
+        "raw_hash": "ce87de5f61658e0c",
+        "norm_hash": "ce87de5f61658e0c",
+        "eng_hash": "aed97c65f2272688"
+      },
+      "533ecce2-5ca1-4556-bac0-7f4e64eb57c9": {
+        "raw_hash": "e5d4dccfb28f34f0",
+        "norm_hash": "e5d4dccfb28f34f0",
+        "eng_hash": "4441fcdfe77cf3bd"
+      },
+      "683e1384-21a7-4a4b-aaa1-f9478876b394": {
+        "raw_hash": "4bb29c39d5c2da59",
+        "norm_hash": "4bb29c39d5c2da59",
+        "eng_hash": "3950d2310356b155"
+      },
+      "16bc6d21-e4b0-43eb-9fbe-2c0bb7309fdf": {
+        "raw_hash": "c05385f007033c5f",
+        "norm_hash": "c05385f007033c5f",
+        "eng_hash": "cf0692f204d7f83d"
+      },
+      "c6a40bf0-c1dd-4c1b-924b-a5edfd2a996b": {
+        "raw_hash": "851ad0d7eae39b3d",
+        "norm_hash": "851ad0d7eae39b3d",
+        "eng_hash": "ef5478b9ab307ea1"
+      },
+      "4ece0775-9110-412a-89a6-740ca9246634": {
+        "raw_hash": "08d0999880c154f8",
+        "norm_hash": "08d0999880c154f8",
+        "eng_hash": "eb6e9a582b130b76"
+      },
+      "6c35906c-b4a5-4d86-a67f-30076d1a4910": {
+        "raw_hash": "e49c5d7423ec0352",
+        "norm_hash": "e49c5d7423ec0352",
+        "eng_hash": "30a95e465dbab6de"
+      },
+      "5073a4d2-170e-4db8-9cb4-81cb80f22b37": {
+        "raw_hash": "0b48544aff84b2cf",
+        "norm_hash": "0b48544aff84b2cf",
+        "eng_hash": "1fd75ce2c8ebf481"
+      },
+      "7787ed3d-484f-4507-8ab8-0761dc2f79dd": {
+        "raw_hash": "cbf3fbd1b0132c49",
+        "norm_hash": "cbf3fbd1b0132c49",
+        "eng_hash": "3af650430cc5f8e0"
+      },
+      "248bc337-061c-49c8-82bb-68e6acc202dd": {
+        "raw_hash": "53094b3201e57175",
+        "norm_hash": "b435ddeb6003bbfa",
+        "eng_hash": "b9fa158587bf487e"
+      },
+      "06865b87-4813-4132-b9f8-d805838a72df": {
+        "raw_hash": "79f608cd4c8a8679",
+        "norm_hash": "79f608cd4c8a8679",
+        "eng_hash": "68004fe1a7e85934"
+      },
+      "4740d3af-1d73-41d7-98aa-4cde958ce9ee": {
+        "raw_hash": "00452737ef477cdb",
+        "norm_hash": "46355ecc2e2d71b3",
+        "eng_hash": "587862db96edccdc"
+      },
+      "c2bbc8e3-49bc-4e59-85a7-fd4ada03e348": {
+        "raw_hash": "9a59e2451562add8",
+        "norm_hash": "9a59e2451562add8",
+        "eng_hash": "e6f621235691fba5"
+      },
+      "10dad103-c16c-4945-9c7a-d9ae6e0cc8d0": {
+        "raw_hash": "501ef74cdefb628c",
+        "norm_hash": "501ef74cdefb628c",
+        "eng_hash": "b47174ab5d92b25d"
+      },
+      "addce378-0986-4839-9367-5d4b02123a16": {
+        "raw_hash": "87a1468c5c15a8b7",
+        "norm_hash": "87a1468c5c15a8b7",
+        "eng_hash": "6dfcccf9c65be459"
+      },
+      "983526ac-93fb-4ece-8bf7-d61336e03193": {
+        "raw_hash": "22df513a5d876ddb",
+        "norm_hash": "22df513a5d876ddb",
+        "eng_hash": "ed9c15ba5a1268fc"
+      },
+      "24cb1354-05c3-499d-8592-53e9de990454": {
+        "raw_hash": "6725e7bbcd28f3a8",
+        "norm_hash": "6725e7bbcd28f3a8",
+        "eng_hash": "6725e7bbcd28f3a8"
+      },
+      "122fb768-0df8-450f-9bfa-44a7b52280a3": {
+        "raw_hash": "ffacb99d020977e9",
+        "norm_hash": "ffacb99d020977e9",
+        "eng_hash": "ffacb99d020977e9"
+      },
+      "95bec903-2474-465c-adae-bfd9f5a125f3": {
+        "raw_hash": "8aae8211cb912264",
+        "norm_hash": "8aae8211cb912264",
+        "eng_hash": "786edba217c338b0"
+      },
+      "ff213ffa-6681-4f86-8c4d-627d69996c31": {
+        "raw_hash": "a9fd61b4a071cf28",
+        "norm_hash": "a9fd61b4a071cf28",
+        "eng_hash": "68005b92893b5dd0"
+      },
+      "a45dc729-564d-45b2-a367-9d4b78c91e94": {
+        "raw_hash": "06f4e312321ad8e9",
+        "norm_hash": "8881f31ad09f62c9",
+        "eng_hash": "ea86d8cca003f5ea"
+      },
+      "7e2ad663-deec-4277-b4ab-ba5a28a2cc48": {
+        "raw_hash": "f05e96586a868fca",
+        "norm_hash": "1bbf80d06fa7dc33",
+        "eng_hash": "c51c54cb9c0eda61"
+      },
+      "6b5fa687-ae86-49ba-a17c-333882b766b8": {
+        "raw_hash": "e9f71542ef76f353",
+        "norm_hash": "e9f71542ef76f353",
+        "eng_hash": "e9f71542ef76f353"
+      },
+      "df5bc3b3-946f-48d7-ba26-0220aeb3c428": {
+        "raw_hash": "47582ea7a9bff287",
+        "norm_hash": "47582ea7a9bff287",
+        "eng_hash": "6a744da75898a29c"
+      },
+      "4550bd90-ecfd-4a30-9098-d30e79152cc6": {
+        "raw_hash": "e54a2ee4b5e0b134",
+        "norm_hash": "e54a2ee4b5e0b134",
+        "eng_hash": "5ad4848b333f3cfb"
+      },
+      "753d5a87-61b3-41ba-9f33-dae8fcb5f37d": {
+        "raw_hash": "158d2598348a8db8",
+        "norm_hash": "158d2598348a8db8",
+        "eng_hash": "783b90a1ec4d9880"
+      },
+      "a27d44b4-87c9-4ace-b146-7f6714ef97fc": {
+        "raw_hash": "573a24f81fae471c",
+        "norm_hash": "573a24f81fae471c",
+        "eng_hash": "512af9b6ea5a967e"
+      },
+      "93aa3887-bcdf-4862-8c8e-4defcc29fbcb": {
+        "raw_hash": "4f87017774dbded9",
+        "norm_hash": "4f87017774dbded9",
+        "eng_hash": "55f388cd41eb36b9"
+      },
+      "d3867b98-8206-4dfa-9ec1-3c85d303794f": {
+        "raw_hash": "20eacd4dc6f50784",
+        "norm_hash": "20eacd4dc6f50784",
+        "eng_hash": "d507ed7470a43243"
+      },
+      "10f03630-14b3-4c9f-9d86-94ed647ec5fc": {
+        "raw_hash": "4ef60ed6533c1a2d",
+        "norm_hash": "4ef60ed6533c1a2d",
+        "eng_hash": "79c471021057b1f8"
+      },
+      "b708ac8e-c2aa-4f97-96b3-12197dc3fd70": {
+        "raw_hash": "8a37a655550c085f",
+        "norm_hash": "8a37a655550c085f",
+        "eng_hash": "5cf0d85cb6179bfd"
+      },
+      "ad13a41b-da5d-48c8-9c9f-bb62e84ef07f": {
+        "raw_hash": "0c64cf1bb884480b",
+        "norm_hash": "0c64cf1bb884480b",
+        "eng_hash": "53407ef8ac20818d"
+      },
+      "fac3c5b4-951f-4f5f-836e-5440bc6514a6": {
+        "raw_hash": "451ef44991f932f3",
+        "norm_hash": "451ef44991f932f3",
+        "eng_hash": "92c8f7e560f6407a"
+      },
+      "84bb1a1f-b238-4650-98ed-ef4b97bc26d7": {
+        "raw_hash": "9c2804808442a388",
+        "norm_hash": "9c2804808442a388",
+        "eng_hash": "4258451d24420d22"
+      },
+      "e4454dc7-e220-4657-9ef1-d4164e282bdd": {
+        "raw_hash": "9114a11296d6435b",
+        "norm_hash": "9114a11296d6435b",
+        "eng_hash": "fefa293b8c0053bf"
+      }
+    },
+    "samples": [
+      {
+        "intel_seg_id": 0,
+        "source_ids": [
+          "5242e29d-609a-4995-ad75-42bc268fee49"
+        ],
+        "display_text": "Assalamu alaikum everyone.",
+        "llm_text": "Assalamu alaikum everyone.",
+        "match_text": "assalamu alaikum"
+      },
+      {
+        "intel_seg_id": 1,
+        "source_ids": [
+          "7e6872ef-533a-4545-be00-7173ba051638"
+        ],
+        "display_text": "Aacha So today we are going to start an important topic of Operating System and that is Process scheduling.",
+        "llm_text": "Acha So today we are going to start an important topic of Operating System and that is Process scheduling.",
+        "match_text": "today going start important topic operating process scheduling"
+      },
+      {
+        "intel_seg_id": 2,
+        "source_ids": [
+          "a521d710-df6d-4a17-8839-9a19eb7c86fc",
+          "eb913357-460e-4f61-b0d9-70f3c3e663b1",
+          "d8e3349d-bbe6-4300-8551-d20acce3dec5"
+        ],
+        "display_text": "If you have opened multiple applications in your computer, For example Chrome, VS Code, Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running.",
+        "llm_text": "If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running.",
+        "match_text": "opened multiple applications computer example chrome vs code spotify maybe whatsapp desktop think all applications not simultaneously running"
+      },
+      {
+        "intel_seg_id": 3,
+        "source_ids": [
+          "7aaaa662-a3ee-4798-9ae4-598241f0f4b5"
+        ],
+        "display_text": "So technically the picture is very different.",
+        "llm_text": "So technically the picture is very different.",
+        "match_text": "technically picture different"
+      },
+      {
+        "intel_seg_id": 4,
+        "source_ids": [
+          "6984b15f-2d38-462e-a6d2-946ee49c0f65"
+        ],
+        "display_text": "CPU in1 a1-2-3-3-3-4-1-2-3-4-5-4",
+        "llm_text": "CPU in1 a1-2-3-3-3-4-1-2-3-4-5-4.",
+        "match_text": "cpu in1 a1-2-3-3-3-4-1-2-3-4-5-4"
+      },
+      {
+        "intel_seg_id": 5,
+        "source_ids": [
+          "4efff345-7d57-4b70-8185-71e382aa87a9"
+        ],
+        "display_text": "Lacking Up System has two dozens or hundreds of processes. Coaching Interactive, some backgrounds, some Argentine.",
+        "llm_text": "Lacking Up System has two dozens or hundreds of processes. Coaching Interactive, some backgrounds, some Argentine.",
+        "match_text": "lacking dozens hundreds processes coaching interactive backgrounds argentine"
+      },
+      {
+        "intel_seg_id": 6,
+        "source_ids": [
+          "f8b6d4d5-9ae6-49fd-80c6-ac19d734bb70"
+        ],
+        "display_text": "And some are already very much waiting for them. Then scheduling becomes a proper decision making problem.",
+        "llm_text": "And some are already very much waiting for them. Then scheduling becomes a proper decision making problem.",
+        "match_text": "much waiting scheduling proper decision making problem"
+      },
+      {
+        "intel_seg_id": 7,
+        "source_ids": [
+          "da875614-e05b-41cd-ae73-eebd14462ac6"
+        ],
+        "display_text": "Satsapra lyeh humtiint terms clear",
+        "llm_text": "Satsapra yeh humtiint terms clear.",
+        "match_text": "satsapra humtiint terms clear"
+      },
+      {
+        "intel_seg_id": 8,
+        "source_ids": [
+          "bb3fad2f-9599-4e9a-bee0-8312a2509288",
+          "9a47f8e6-6b33-4114-a7c5-829b700cf35c",
+          "8336a340-0679-42ab-9cbe-5550bb60fe69",
+          "42568863-033e-47ae-87e6-be1b041064bd",
+          "8dcbe6d8-7fe4-40fd-ad5b-6f02336efdae",
+          "c272bbc9-5047-4cf4-8e7e-8ee8caa4c963",
+          "a9d9af6f-a8f2-4202-a5fb-c045a993e419"
+        ],
+        "display_text": "Program Process or Threat Program Basically Inceptions of passive collection For example, When you have an application's executable file disk on it, it is in the program, when it is executed, it is called running instance, we call it instance, so if I give a Chrome So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+        "llm_text": "Program Process or Threat Program Basically Inceptions of passive collection For example, When you have an application's executable file on disk on it, it is in the program, when it is executed, it is called running instance, we call it instance, so if I give a Chrome.",
+        "match_text": "program process threat program basically inceptions passive collection example application's executable file disk program executed called running instance instance chrome"
+      },
+      {
+        "intel_seg_id": 9,
+        "source_ids": [
+          "bb3fad2f-9599-4e9a-bee0-8312a2509288",
+          "9a47f8e6-6b33-4114-a7c5-829b700cf35c",
+          "8336a340-0679-42ab-9cbe-5550bb60fe69",
+          "42568863-033e-47ae-87e6-be1b041064bd",
+          "8dcbe6d8-7fe4-40fd-ad5b-6f02336efdae",
+          "c272bbc9-5047-4cf4-8e7e-8ee8caa4c963",
+          "a9d9af6f-a8f2-4202-a5fb-c045a993e419"
+        ],
+        "display_text": "Program Process or Threat Program Basically Inceptions of passive collection For example, When you have an application's executable file disk on it, it is in the program, when it is executed, it is called running instance, we call it instance, so if I give a Chrome So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+        "llm_text": "So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+        "match_text": "different windows context instances run multiple processes perspective"
+      }
+    ],
+    "elapsed_ms": 44.19,
+    "total_output_segments": 59
+  },
+  "created_at": "2026-11-15 18:15:00.551274"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "fintech_digital_banking_05",
+  "expected_domain": "fintech",
+  "transcript": "Hello class. Today we examine financial technology ecosystems, specifically digital banking and modern payment gateways. Dekhein, traditional branch banking relied on physical paperwork and manual verification. Lekin modern FinTech platforms leverage mobile wallets, QR code transactions, and electronic know-your-customer yani e-KYC. When a consumer initiates a peer-to-peer transfer, real-time transaction processing verifies biometric credentials, checks balance availability, and routes the payment through secure APIs and clearing houses. Furthermore, artificial intelligence is integrated directly into fraud detection pipelines to flag anomalous charge patterns and prevent account takeover attacks. The goal of digital payments is expanding financial inclusion while maintaining strict regulatory compliance and data encryption standards.",
+  "expected_concepts": [
+    "financial technology",
+    "digital banking",
+    "payment gateways",
+    "mobile wallets",
+    "e-kyc",
+    "peer-to-peer transfer",
+    "fraud detection",
+    "financial inclusion"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "turnaround time",
+    "accrual",
+    "depreciation",
+    "reflex arc",
+    "sensory neuron",
+    "ohm's law",
+    "coulomb",
+    "potential difference",
+    "precision and recall",
+    "gradient descent"
+  ]
+}

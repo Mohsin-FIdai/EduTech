@@ -1,0 +1,33 @@
+{
+  "id": "machine_learning_04",
+  "expected_domain": "machine_learning",
+  "transcript": "Okay, welcome back. In this lecture we explore the core paradigm of supervised machine learning. Supervised learning ka matlab yeh hai ke aapke pas labeled training data hota hai with input features X and target ground-truth labels y. We divide supervised tasks into classification and regression. Classification is when the output is a discrete categorical class label, jaise spam versus not spam, whereas regression predicts a continuous numerical quantity like housing prices. When evaluating our models, we measure precision, recall, and F1-score rather than just raw accuracy, especially on imbalanced datasets. A primary danger during training is overfitting, where the model memorizes training noise and fails to generalize to unseen test instances.",
+  "expected_concepts": [
+    "supervised learning",
+    "labeled training data",
+    "classification",
+    "regression",
+    "precision",
+    "recall",
+    "f1-score",
+    "overfitting",
+    "generalization"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "turnaround time",
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "reflex arc",
+    "sensory neuron",
+    "cns",
+    "ohm's law",
+    "coulomb",
+    "volt",
+    "digital wallet",
+    "e-kyc"
+  ]
+}

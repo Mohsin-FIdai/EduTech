@@ -1,0 +1,30 @@
+{
+  "id": "business_general_01",
+  "expected_domain": "general",
+  "transcript": "Alright everyone, let's get started. Today we are continuing our discussion on organizational structure and team workflow management. So,dekhein, when a small business starts growing, you see bottlenecks emerging everywhere. You have five people trying to talk to the client directly, and then nobody is keeping track of the deliverables. What we need is a clear division of responsibilities. For instance, ek simple project management board, jaise Trello ya Asana, helps streamline the daily tasks. Hum dekhte hain ke daily standup meetings can actually reduce email overload by almost forty percent. The main challenge, of course, is change management. People are used to their old informal habits, unko naye software pe shift karna mushkil lagta hai. The leadership has to communicate the benefits clearly. You need training sessions, feedback loops, and proper milestones. Agar aap employee feedback nahi leinge, then the new system will simply be ignored. So the key takeaway for today is that operational efficiency depends far more on team alignment and clear communication than on any fancy technology you buy. We will review the case study on retail operations next Monday.",
+  "expected_concepts": [
+    "organizational structure",
+    "team workflow",
+    "bottlenecks",
+    "project management",
+    "daily standup meetings",
+    "change management",
+    "operational efficiency",
+    "team alignment"
+  ],
+  "foreign_terms_to_watch": [
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "profit",
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "supervised learning",
+    "gradient descent",
+    "reflex arc",
+    "ohm's law",
+    "digital wallet",
+    "acid properties"
+  ]
+}

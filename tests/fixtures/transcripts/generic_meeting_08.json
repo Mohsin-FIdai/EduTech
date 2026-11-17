@@ -1,0 +1,35 @@
+{
+  "id": "generic_meeting_08",
+  "expected_domain": "general",
+  "transcript": "Hello team, let's quickly jump into our weekly sync meeting. Today is Thursday, and we have several internal team updates to cover. First, congratulations to everyone on finishing the office relocation smoothly last week. The new seating arrangement seems to be working well, but a few people mentioned that air conditioning on the fourth floor needs adjustment, so facilities has been notified. Regarding our company sports day, the organizing committee has finalized the venue for next Friday afternoon. Please submit your team rosters by Tuesday so we can order the jerseys. Also, a quick reminder that time sheets for the current pay period must be approved by your direct managers before 5 PM tomorrow. Does anyone have any general announcements or questions before we wrap up today's call? Okay, thank you everyone, have a productive afternoon.",
+  "expected_concepts": [
+    "weekly sync meeting",
+    "office relocation",
+    "facilities",
+    "sports day",
+    "team rosters",
+    "time sheets",
+    "pay period"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "turnaround time",
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "profit",
+    "supervised learning",
+    "precision and recall",
+    "reflex arc",
+    "sensory neuron",
+    "cns",
+    "ohm's law",
+    "ampere",
+    "coulomb",
+    "digital wallet",
+    "e-kyc",
+    "sql"
+  ]
+}

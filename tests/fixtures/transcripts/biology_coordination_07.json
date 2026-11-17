@@ -1,0 +1,34 @@
+{
+  "id": "biology_coordination_07",
+  "expected_domain": "biology_life_sciences",
+  "transcript": "Assalamu alaikum everyone, how are you all? So today we are discussing human biology, specifically coordination and response mechanisms in living organisms. Coordination allows different organs and tissues to work harmoniously together in response to external environmental changes called stimuli. In human beings, rapid coordination is mediated by the nervous system, which is divided into the Central Nervous System yani CNS, comprising the brain and spinal cord, and the Peripheral Nervous System PNS. When you accidentally touch a hot object, you immediately pull your hand back without even consciously thinking. This rapid, involuntary survival response is called a reflex action. The structural pathway traversed by electrical nerve impulses during this event is the reflex arc: starting from the sensory receptor in the skin, passing along the sensory neuron, across a synapse into the relay neuron inside the spinal cord, and then via the motor neuron to the effector muscle which contracts.",
+  "expected_concepts": [
+    "coordination and response",
+    "stimuli",
+    "nervous system",
+    "central nervous system",
+    "cns",
+    "peripheral nervous system",
+    "reflex action",
+    "reflex arc",
+    "sensory neuron",
+    "motor neuron"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "turnaround time",
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "profit",
+    "supervised learning",
+    "precision and recall",
+    "ohm's law",
+    "ampere",
+    "coulomb",
+    "digital wallet",
+    "sql"
+  ]
+}

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture & Meeting Intelligence AI — Modern Workspace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css?v=4.4.0">
+</head>
+<body>
+    <div class="app-shell">
+        <!-- 1. Left Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-wave-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 10v4"></path>
+                        <path d="M6 7v10"></path>
+                        <path d="M10 3v18"></path>
+                        <path d="M14 7v10"></path>
+                        <path d="M18 10v4"></path>
+                        <path d="M22 12v0"></path>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <h2>Lecture & Meeting <span class="brand-badge">AI</span></h2>
+                    <p class="brand-tagline">Listen • Understand • Learn</p>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-item active" id="navDashboard" data-view="dashboard">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                        <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                        <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+                        <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                    </svg>
+                    <span>Workspace</span>
+                </button>
+                <button class="nav-item" id="navUploads" data-view="uploads">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                        <path d="M12 12v9"></path>
+                        <path d="m16 16-4-4-4 4"></path>
+                    </svg>
+                    <span>My Uploads</span>
+                </button>
+                <button class="nav-item" id="navNotes" data-view="notes">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                        <path d="M6 6h10"></path>
+                        <path d="M6 10h10"></path>
+                    </svg>
+                    <span>Study Notes</span>
+                </button>
+                <button class="nav-item" id="navQuizzes" data-view="quizzes">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                        <path d="M12 17h.01"></path>
+                    </svg>
+                    <span>Quizzes</span>
+                </button>
+                <button class="nav-item" id="navExports" data-view="exports">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span>Exports</span>
+                </button>
+                <button class="nav-item" id="navSettings" data-view="settings">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
+                    <span>Settings</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-promo-card">
+                <div class="promo-illustration">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <h4>Turn lectures and meetings into structured knowledge.</h4>
+                <p>Better notes. Deeper learning.</p>
+            </div>
+        </aside>
+
+        <!-- 2. Main Application Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Navigation Header -->
+            <header class="top-navbar">
+                <div class="nav-left">
+                    <button class="back-dashboard-btn" id="topNavBackBtn" title="Switch or View Recordings">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        <span id="topNavBreadcrumb">Workspace</span>
+                    </button>
+                </div>
+
+                <div class="search-container">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="globalSearchInput" class="search-input" placeholder="Search in notes, topics, or ask a question...">
+                    <div class="search-kbd-hint">Ctrl + K</div>
+                </div>
+
+                <div class="nav-right">
+                    <button class="notification-bell-btn" title="Notifications">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                        <span class="notification-dot"></span>
+                    </button>
+                    <div class="user-profile" title="Current User">
+                        <div class="user-avatar">ZQ</div>
+                        <span class="user-name">Zainab Qureshi</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content Container -->
+            <main class="content-container">
+                <!-- Global Alert Box -->
+                <div id="alertBox" class="alert-box hidden"></div>
+
+                <!-- VIEW A: ACTIVE LECTURE DASHBOARD & WORKSPACE -->
+                <section id="recordingDashboard" class="dashboard-view-wrapper hidden">
+                    <!-- 1. Persistent Lecture Hero Header Bar -->
+                    <div class="lecture-hero-bar">
+                        <div class="hero-left">
+                            <div class="hero-icon-box" id="dashboardMediaIcon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            </div>
+                            <div class="hero-details">
+                                <h1 id="dashboardRecordingTitle">Loading Lecture Recording...</h1>
+                                <div class="hero-meta-chips">
+                                    <span class="meta-chip">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                                        </svg>
+                                        <span id="dashboardDate">--</span>
+                                    </span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="meta-chip">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <polyline points="12 6 12 12 16 14"></polyline>
+                                        </svg>
+                                        <span id="dashboardDuration">00:00</span>
+                                    </span>
+                                    <span class="meta-separator">•</span>
+                                    <span class="meta-chip">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                        </svg>
+                                        <span id="dashboardFormatSize">MP4 (0 MB)</span>
+                                    </span>
+                                    <span id="dashboardDomainChip" class="meta-chip domain-badge">General Academic</span>
+                                    <span id="dashboardStatusBadge" class="status-badge-chip badge-success">READY</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hero-actions">
+                            <button id="switchLectureBtn" class="btn btn-secondary btn-sm" title="Return to Landing Page or Choose Another Recording">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                                <span>Switch / New</span>
+                            </button>
+                            <button id="dashboardProcessBtn" class="btn btn-secondary btn-sm" title="Re-process recording">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+                                <span>Re-process</span>
+                            </button>
+                            <button class="btn btn-secondary btn-sm" id="exportPdfBtn" title="Export PDF">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                <span>Download PDF</span>
+                            </button>
+                            <button class="btn btn-secondary btn-sm" id="shareBtn" title="Share Lecture">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                <span>Share</span>
+                            </button>
+                            <button class="btn btn-primary btn-sm" id="exportAllBtn" title="Export All Assets">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                                <span>Export All</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 2. Compact Persistent Media & Waveform Scrubber -->
+                    <div class="sticky-media-bar">
+                        <div class="media-row-top">
+                            <div id="audioVisualizerBlock" class="audio-compact-view">
+                                <div class="audio-pulse-dot"></div>
+                                <span class="audio-status-text">Synchronized Lecture Audio Stream</span>
+                            </div>
+                            <audio id="audioPlayer" controls preload="metadata" class="compact-audio-player"></audio>
+                        </div>
+
+                        <!-- Waveform Timeline with Chapter Pins -->
+                        <div class="waveform-container">
+                            <div class="waveform-canvas-wrapper" id="waveformWrapper" title="Click anywhere along waveform to jump timestamp">
+                                <svg class="waveform-svg" preserveAspectRatio="none" viewBox="0 0 1000 60" id="waveformSvg"></svg>
+                                <div class="waveform-progress-fill" id="waveformProgressFill"></div>
+                                <div class="waveform-pins-overlay" id="waveformPinsOverlay"></div>
+                            </div>
+                            <div class="waveform-timestamps">
+                                <span id="currentTimeDisplay">00:00</span>
+                                <span id="totalDurationDisplay">00:00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Workspace Secondary Navigation Tabs -->
+                    <div class="workspace-nav-bar">
+                        <button class="workspace-tab-btn active" id="tabWorkspaceOverview" data-tab="overview">
+                            <span class="mono-emoji">📊</span><span>Overview</span>
+                        </button>
+                        <button class="workspace-tab-btn" id="tabWorkspaceTranscript" data-tab="transcript">
+                            <span class="mono-emoji">📝</span><span>Transcript</span>
+                        </button>
+                        <button class="workspace-tab-btn" id="tabWorkspaceNotes" data-tab="notes">
+                            <span class="mono-emoji">📖</span><span>Study Notes</span>
+                        </button>
+                        <button class="workspace-tab-btn" id="tabWorkspaceAssignments" data-tab="assignments">
+                            <span class="mono-emoji">📋</span><span>Assignments & Actions</span>
+                        </button>
+                        <button class="workspace-tab-btn" id="tabWorkspaceQuiz" data-tab="quiz">
+                            <span class="mono-emoji">🎯</span><span>Practice Quiz</span>
+                        </button>
+                        <button class="workspace-tab-btn" id="tabWorkspaceQA" data-tab="qa">
+                            <span class="mono-emoji">💡</span><span>AI Assistant</span>
+                        </button>
+                    </div>
+
+                    <!-- 4. ACTIVE WORKSPACE SECTIONS -->
+
+                    <!-- SECTION 1: OVERVIEW (Compact High-Yield Dashboard) -->
+                    <div id="workspaceSectionOverview" class="workspace-section active">
+                        <div class="overview-grid">
+                            <!-- Card 1: Executive Summary -->
+                            <div class="content-card">
+                                <div class="card-header-row">
+                                    <div class="card-title-group">
+                                        <h3><span class="mono-emoji">📑</span>Executive Summary</h3>
+                                    </div>
+                                    <a class="card-link" id="viewFullSummaryBtn">View Full Summary →</a>
+                                </div>
+                                <p class="summary-paragraph" id="summaryShort">Loading executive summary...</p>
+                            </div>
+
+                            <!-- Card 2: Key Topics & Tags -->
+                            <div class="content-card">
+                                <div class="card-header-row">
+                                    <div class="card-title-group">
+                                        <h3><span class="mono-emoji">📌</span>Key Topics & Concepts</h3>
+                                    </div>
+                                    <span class="meta-chip">Click to seek timestamp</span>
+                                </div>
+                                <div class="topic-pills-row" id="summaryTopicChips">
+                                    <!-- Dynamic Keyword Chips -->
+                                </div>
+                            </div>
+
+                            <!-- Card 3: Upcoming Deliverables Snapshot -->
+                            <div class="content-card">
+                                <div class="card-header-row">
+                                    <div class="card-title-group">
+                                        <h3><span class="mono-emoji">📋</span>Coursework & Deadlines</h3>
+                                    </div>
+                                    <a class="card-link" id="overviewJumpAssignmentsBtn">View All Deliverables →</a>
+                                </div>
+                                <div id="overviewAssignmentsPreview" class="overview-preview-list">
+                                    <!-- Populated dynamically with top 2 deliverables -->
+                                </div>
+                            </div>
+</div>
+                    </div>
+
+                    <!-- SECTION 2: TRANSCRIPT (Dedicated High-Focus Transcript Workspace) -->
+                    <div id="workspaceSectionTranscript" class="workspace-section hidden">
+                        <div class="content-card">
+                            <div class="transcript-panel-header">
+                                <div class="transcript-tabs">
+                                    <button class="tab-pill-btn active" id="btnTabTranscript"><span class="mono-emoji">📝</span>Transcript</button>
+                                    <button class="tab-pill-btn" id="btnTabTimeline"><span class="mono-emoji">⏱️</span>Timeline</button>
+                                </div>
+                                <div class="sub-filter-group" id="transcriptSubFilters">
+                                    <button class="sub-filter-btn active mode-btn" data-mode="side-by-side"><span class="mono-emoji">🪟</span>Tri-View</button>
+                                    <button class="sub-filter-btn mode-btn" data-mode="original"><span class="mono-emoji">🗣️</span>Spoken</button>
+                                    <button class="sub-filter-btn mode-btn" data-mode="normalized"><span class="mono-emoji">✍️</span>Cleaned</button>
+                                    <button class="sub-filter-btn mode-btn" data-mode="english"><span class="mono-emoji">🌐</span>English</button>
+                                </div>
+                            </div>
+
+                            <div class="transcript-search-row">
+                                <input type="text" id="transcriptFilterInput" class="search-input transcript-filter-input" placeholder="Filter spoken words in transcript...">
+                            </div>
+
+                            <!-- Dynamic Spoken Turns Feed -->
+                            <div class="transcript-feed" id="transcriptSegmentsList">
+                                <div class="empty-state">Loading transcript segments...</div>
+                            </div>
+
+                            <!-- Timeline View Feed (Toggled via Timeline Tab) -->
+                            <div class="transcript-feed hidden" id="timelineFeedList">
+                                <!-- Dynamic Timeline Milestones -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 3: STUDY NOTES (Dedicated Full-Width Study Guide Workspace) -->
+                    <div id="workspaceSectionNotes" class="workspace-section hidden">
+                        <div class="content-card" id="studyNotesSection">
+                            <div class="card-header-row">
+                                <div class="card-title-group">
+                                    <h3><span class="mono-emoji">📖</span>Topic-wise Study Notes & High-Yield Guide</h3>
+                                </div>
+                                <div style="display:flex; align-items:center; gap:0.6rem;">
+                                    <button type="button" class="btn btn-secondary btn-sm" id="downloadNotesPdfBtn" title="Download High-Yield Study Notes in PDF" style="padding:3px 9px; font-size:0.75rem; border-radius:6px; display:inline-flex; align-items:center; gap:5px; color:var(--primary); font-weight:700; border-color:var(--primary-border); background:var(--primary-light);">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                        <span>Download Notes (PDF)</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="topic-notes-list" id="topicNotesContainer">
+                                <!-- Populated dynamically with numbered badges & timestamps -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 4: ASSIGNMENTS & ACTION ITEMS (Dedicated Deliverables Workspace) -->
+                    <div id="workspaceSectionAssignments" class="workspace-section hidden">
+                        <div class="deliverables-grid">
+                            <!-- Left: Coursework & Deadlines -->
+                            <div class="content-card">
+                                <div class="card-header-row">
+                                    <div class="card-title-group">
+                                        <h3><span class="mono-emoji">📋</span>Assignments & Coursework</h3>
+                                    </div>
+                                    <a class="card-link" id="viewAllAssignmentsBtn">View All →</a>
+                                </div>
+                                <div class="assignments-feed" id="assignmentsContainer">
+                                    <!-- Modern assignment cards populated dynamically -->
+                                </div>
+                            </div>
+
+                            <!-- Right: Action Items Checklist -->
+                            <div class="content-card">
+                                <div class="card-header-row">
+                                    <div class="card-title-group">
+                                        <h3><span class="mono-emoji">✅</span>Action Items Checklist</h3>
+                                    </div>
+                                    <a class="card-link" id="viewAllActionItemsBtn">View All →</a>
+                                </div>
+                                <div class="action-items-list" id="actionItemsContainer">
+                                    <!-- Action items populated dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 5: PRACTICE QUIZ (Dedicated Testing Workspace) -->
+                    <div id="workspaceSectionQuiz" class="workspace-section hidden">
+                        <div class="content-card" id="quizCardSection">
+                            <div class="quiz-panel-header">
+                                <div class="quiz-tabs">
+                                    <button class="tab-pill-btn active" id="tabPracticeQuiz"><span class="mono-emoji">🎯</span>Practice Quiz</button>
+                                    <button class="tab-pill-btn" id="tabHighlights"><span class="mono-emoji">🎬</span>Video Highlights</button>
+                                    <button class="tab-pill-btn" id="tabExportsBottom"><span class="mono-emoji">📥</span>Exports</button>
+                                </div>
+                                <div class="quiz-counter-badge" id="quizCounterDisplay">Question 1 / 4</div>
+                            </div>
+
+                            <!-- Quiz Sub-panel -->
+                            <div id="interactiveQuizWrapper" class="quiz-container">
+                                <div class="quiz-question-title" id="quizQuestionText">Loading quiz question...</div>
+                                <div class="quiz-options-grid" id="quizOptionsGrid">
+                                    <!-- Options A, B, C, D dynamically rendered -->
+                                </div>
+                                <div class="quiz-answer-card hidden" id="quizAnswerCard">
+                                    <div class="quiz-answer-header">
+                                        <span id="quizCorrectAnswerLabel">Correct Answer</span>
+                                    </div>
+                                    <div class="quiz-explanation-text" id="quizExplanationText">Explanation details.</div>
+                                </div>
+                                <div class="quiz-actions-footer">
+                                    <button class="btn btn-secondary btn-sm" id="quizPrevBtn">← Previous</button>
+                                    <button class="btn btn-secondary btn-sm" id="quizRevealBtn">Reveal Answer</button>
+                                    <button class="btn btn-secondary btn-sm" id="quizRegenerateBtn" title="Regenerate only the quiz section with LLM">↻ Regenerate Quizzes</button>
+                                    <button class="btn btn-primary btn-sm" id="quizNextBtn">Next Question →</button>
+                                </div>
+                            </div>
+
+                            <!-- Highlights Sub-panel (hidden by default) -->
+                            <div id="highlightsWrapper" class="quiz-container hidden">
+                                <div id="highlightsList" class="highlights-list">
+                                    <!-- Populated dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SECTION 6: AI ASSISTANT (Dedicated ChatGPT-Style Chatbot Workspace) -->
+                    <div id="workspaceSectionQA" class="workspace-section hidden">
+                        <div class="content-card qa-workspace-card" id="qaSection">
+                            <div class="card-header-row">
+                                <div class="card-title-group">
+                                    <h3><span class="mono-emoji">💡</span>Ask Anything — AI Teaching Assistant</h3>
+                                    <span class="brand-badge qa-beta-badge">BETA</span>
+                                </div>
+                                <div style="display:flex; align-items:center; gap:10px;">
+                                    <label class="eli5-toggle-container" title="Explain Like I'm 5: Simplified answers with analogies and short sentences">
+                                        <span class="eli5-toggle-label">🧒 Explain Simply (ELI5)</span>
+                                        <input type="checkbox" id="qaEli5Toggle" class="eli5-checkbox">
+                                    </label>
+                                    <button type="button" id="qaRefreshBtn" class="btn btn-secondary btn-sm qa-refresh-btn" title="Refresh and clear chat">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg>
+                                        <span>Refresh Chat</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="qa-card-subtitle">Powered by Qwen3.5 4B on GPU — structured explanations, clickable timestamps, and LaTeX math.</p>
+
+                            <div class="qa-messages-stream" id="qaMessagesStream">
+                                <div class="chat-bubble ai-bubble">
+                                    <div class="ai-msg-header"><span class="ai-avatar-pill">✨ AI Tutor</span></div>
+                                    <div class="qa-chat-markdown">Assalamu alaikum! Ask any question about this lecture or related concepts, or pick a prompt below.</div>
+                                </div>
+                            </div>
+
+                            <!-- Suggestions row -->
+                            <div id="qaSuggestionsRow" class="qa-suggestions-row">
+                                <button type="button" class="topic-tag-chip qa-suggestion-btn" data-q="What is the assignment topic and deadline?"><span class="mono-emoji">📋</span>Assignment deadline</button>
+                                <button type="button" class="topic-tag-chip qa-suggestion-btn" data-q="What are the key concepts discussed?"><span class="mono-emoji">📖</span>Key concepts</button>
+                                <button type="button" class="topic-tag-chip qa-suggestion-btn" data-q="Give me all the numerical formulas used in the lecture"><span class="mono-emoji">∑</span>Formulas</button>
+                                <button type="button" class="topic-tag-chip qa-suggestion-btn" data-q="What will come in the exam?"><span class="mono-emoji">🎯</span>Exam topics</button>
+                            </div>
+
+                            <form id="qaForm" class="qa-chat-input-bar">
+                                <input type="text" id="qaInput" class="qa-chat-input" placeholder="Ask a question about this lecture...">
+                                <button type="submit" class="qa-send-btn" title="Send question">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- VIEW B: WORKSPACE LANDING PAGE (Upload New or Choose Previous) -->
+                <section id="uploadsSection" class="uploads-section">
+                    <!-- 1. Landing Welcome Hero Card -->
+                    <div class="landing-hero-card">
+                        <div class="landing-hero-content">
+                            <div class="landing-hero-badge">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                <span>AI-Powered Academic & Meeting Workspace</span>
+                            </div>
+                            <h1 class="landing-hero-title">Lecture & Meeting AI Workspace</h1>
+                            <p class="landing-hero-subtitle">Upload a new audio or video recording to begin a fresh analysis session, or choose any previous upload from your library below to continue where you left off.</p>
+                        </div>
+                        <div class="landing-quick-stats">
+                            <div class="landing-stat-box">
+                                <span class="landing-stat-num" id="statTotalRecordings">0</span>
+                                <span class="landing-stat-lbl">Saved Recordings</span>
+                            </div>
+                            <div class="landing-stat-box">
+                                <span class="landing-stat-num" id="statTotalHours">0.0h</span>
+                                <span class="landing-stat-lbl">Processed Audio</span>
+                            </div>
+                            <div class="landing-stat-box">
+                                <span class="landing-stat-num" style="color:var(--success);">Local AI</span>
+                                <span class="landing-stat-lbl">Fast & Private</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Primary Action Choice: Upload New Audio / Video -->
+                    <div class="content-card">
+                        <div class="card-header-row">
+                            <div class="card-title-group">
+                                <h3><span class="mono-emoji">📤</span>Upload Audio / Video (Start New Session)</h3>
+                            </div>
+                            <span class="meta-chip">Max 30 mins • Audio / Video</span>
+                        </div>
+
+                        <!-- Context-Conditioned Upload Inputs -->
+                        <div class="upload-context-panel">
+                            <div class="form-group">
+                                <label for="uploadTopic" class="upload-field-label">
+                                    <span>Topic / Context Hint</span>
+                                    <span class="upload-hint-sub">(Optional — biases speech decoder for high accuracy)</span>
+                                </label>
+                                <input type="text" id="uploadTopic" class="upload-text-input" placeholder="e.g. Operating systems lecture: process scheduling, Electricity and circuits, Sprint planning...">
+                            </div>
+                            <div class="form-group">
+                                <label for="uploadRecordingType" class="upload-field-label">
+                                    <span>Recording Type</span>
+                                    <span class="upload-req-tag">(Required)</span>
+                                </label>
+                                <select id="uploadRecordingType" class="upload-select-input">
+                                    <option value="Lecture" selected>Lecture (Notes, Chapters, Quizzes & Deliverables)</option>
+                                    <option value="Meeting">Meeting (Agenda, Decisions & Action Items)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="dropZone" class="drop-zone">
+                            <input type="file" id="fileInput" class="file-input" accept=".mp3,.wav,.m4a,.mp4,.webm,.mov,.ogg,.flac">
+                            <div class="drop-zone-content">
+                                <div class="upload-icon">
+                                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                                </div>
+                                <h3>Drag & drop your lecture or meeting recording here</h3>
+                                <p>or <span class="browse-btn">browse your computer</span> to select an audio or video file</p>
+                                <span class="supported-text">Supported formats: MP3, WAV, M4A, MP4, WEBM, MOV, OGG, FLAC</span>
+                            </div>
+                        </div>
+
+                        <!-- Staged File Card & Manual Start Button -->
+                        <div id="stagedFileCard" class="staged-file-card hidden">
+                            <div class="staged-file-left">
+                                <div id="stagedFileIcon" class="staged-file-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                                </div>
+                                <div class="staged-file-text-col">
+                                    <div id="stagedFileName" class="staged-file-name">filename.mp4</div>
+                                    <div id="stagedFileMeta" class="staged-file-meta">Ready to process • Fill in optional topic hint above then click start</div>
+                                </div>
+                            </div>
+                            <div class="staged-file-right">
+                                <button type="button" id="removeStagedFileBtn" class="btn btn-secondary btn-sm" title="Remove selected file">&times; Remove</button>
+                                <button type="button" id="submitProcessBtn" class="btn btn-primary staged-process-btn">
+                                    <span>Start Processing</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- 6-Stage Pipeline Stepper & Progress Container -->
+                        <div id="progressContainer" class="progress-container hidden">
+                            <div class="pipeline-stepper">
+                                <div class="step-item" id="step-upload">
+                                    <div class="step-circle">1</div>
+                                    <div class="step-label">Upload & Validate</div>
+                                </div>
+                                <div class="step-line"></div>
+                                <div class="step-item" id="step-preprocess">
+                                    <div class="step-circle">2</div>
+                                    <div class="step-label">Preprocessing</div>
+                                </div>
+                                <div class="step-line"></div>
+                                <div class="step-item" id="step-transcribe">
+                                    <div class="step-circle">3</div>
+                                    <div class="step-label">Transcription</div>
+                                </div>
+                                <div class="step-line"></div>
+                                <div class="step-item" id="step-normalize">
+                                    <div class="step-circle">4</div>
+                                    <div class="step-label">Normalization</div>
+                                </div>
+                                <div class="step-line"></div>
+                                <div class="step-item" id="step-intelligence">
+                                    <div class="step-circle">5</div>
+                                    <div class="step-label">Intelligence</div>
+                                </div>
+                                <div class="step-line"></div>
+                                <div class="step-item" id="step-ready">
+                                    <div class="step-circle">6</div>
+                                    <div class="step-label">Complete</div>
+                                </div>
+                            </div>
+
+                            <div class="progress-info">
+                                <span id="progressLabel">Initializing upload...</span>
+                                <span id="progressPercent">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div id="progressBarFill" class="progress-bar-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Primary Action Choice: Choose a Previous Upload (Saved Library) -->
+                    <div class="content-card" id="savedLibraryCard">
+                        <div class="card-header-row">
+                            <div class="card-title-group">
+                                <h3><span class="mono-emoji">📚</span>Choose a Previous Upload (Saved Library)</h3>
+                                <p style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">Select any saved recording below to open its workspace and view its preserved study notes, quizzes, and transcripts.</p>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <button id="refreshBtn" class="btn btn-secondary btn-sm" title="Refresh library">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+                                    <span>Refresh</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Library Search & Filter Bar -->
+                        <div class="library-search-row">
+                            <div style="position:relative; flex:1; max-width:380px;">
+                                <input type="text" id="librarySearchInput" class="search-input" style="height:36px; font-size:0.82rem; padding-left:2rem;" placeholder="Filter saved recordings by name...">
+                                <svg style="position:absolute; left:0.65rem; top:50%; transform:translateY(-50%); width:14px; height:14px; color:var(--text-subtle); pointer-events:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                            </div>
+                            <div class="library-filter-chips" id="libraryFilterChips">
+                                <button class="filter-chip active" data-filter="all">All</button>
+                                <button class="filter-chip" data-filter="completed">Ready / Completed</button>
+                                <button class="filter-chip" data-filter="video">Videos</button>
+                                <button class="filter-chip" data-filter="audio">Audios</button>
+                            </div>
+                        </div>
+
+                        <div id="recordingsList" class="recordings-list">
+                            <div class="loading-state">Loading registered recordings...</div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Export Menu Modal -->
+    <div id="exportModal" class="modal-overlay hidden">
+        <div class="modal-card export-modal-card">
+            <h3 class="modal-title">Export Lecture Intelligence</h3>
+            <p class="modal-subtitle">Select your desired format to download complete lecture notes, transcripts, and quizzes.</p>
+            <div class="export-options-list">
+                <button class="btn btn-secondary export-format-btn" id="modalExportPdf">Download Full PDF Report (All Sections)</button>
+                <button class="btn btn-secondary export-format-btn" id="modalExportNotesPdf" style="background:#EEF2FF; border-color:#C7D2FE; color:#4F46E5; font-weight:700;">Download Study Notes Only (PDF)</button>
+                <button class="btn btn-secondary export-format-btn" id="modalExportDocx">Download Word (.docx) Document</button>
+                <button class="btn btn-secondary export-format-btn" id="modalExportMd">Download Markdown (.md) Notes</button>
+                <button class="btn btn-secondary export-format-btn" id="modalExportTxt">Download Plain Text (.txt) Transcript</button>
+            </div>
+            <button class="btn btn-secondary btn-sm modal-cancel-btn" id="closeExportModalBtn">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Generic Details Modal (for View All Notes / Assignments / Actions / Summary) -->
+    <div id="detailsModal" class="modal-overlay hidden">
+        <div class="modal-container details-modal-container">
+            <div class="details-modal-header">
+                <h3 id="detailsModalTitle" class="details-modal-title">Details</h3>
+                <button id="closeDetailsModalBtn" class="btn btn-secondary btn-sm close-round-btn">&times;</button>
+            </div>
+            <div id="detailsModalBody" class="details-modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Reprocess Options Modal -->
+    <div id="reprocessModal" class="modal-overlay hidden">
+        <div class="modal-card reprocess-modal-card">
+            <div class="modal-header-between">
+                <div>
+                    <h3 class="reprocess-title">Re-process Recording</h3>
+                    <p id="reprocessModalSubtitle" class="reprocess-subtitle">Select processing mode for this lecture.</p>
+                </div>
+                <button id="closeReprocessModalBtn" class="btn btn-secondary btn-sm close-round-btn">&times;</button>
+            </div>
+
+            <div class="reprocess-options-list">
+                <!-- Fast Re-analysis Option -->
+                <div id="reprocessFastOptionBtn" class="reprocess-option-card">
+                    <div class="reprocess-option-icon fast-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <div>
+                        <div class="reprocess-option-heading">
+                            <span>Fast AI Re-analysis</span>
+                            <span class="reprocess-tag fast-tag">~3 SECONDS</span>
+                        </div>
+                        <p class="reprocess-option-desc">
+                            Uses existing transcript to re-extract summaries, study notes, assignments, practice quizzes, and semantic embeddings.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Full Pipeline Option -->
+                <div id="reprocessFullOptionBtn" class="reprocess-option-card">
+                    <div class="reprocess-option-icon full-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+                    </div>
+                    <div>
+                        <div class="reprocess-option-heading">
+                            <span>Full Pipeline Re-run</span>
+                            <span class="reprocess-tag full-tag">AUDIO + STT + AI</span>
+                        </div>
+                        <p class="reprocess-option-desc">
+                            Re-executes 16kHz audio extraction, silence chunking, Whisper speech-to-text, Roman Urdu normalization, and full intelligence from scratch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer-end">
+                <button class="btn btn-secondary btn-sm" id="cancelReprocessModalBtn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Segment & Downstream Recomputation Modal -->
+    <div id="editSegmentModal" class="modal-overlay hidden">
+        <div class="modal-card edit-segment-card">
+            <div class="modal-header-between">
+                <div>
+                    <h3 class="edit-segment-title">
+                        <span>Edit Transcript Segment</span>
+                        <span id="editSegmentBadge" class="edit-segment-badge">Seg #12</span>
+                    </h3>
+                    <p id="editSegmentSubtitle" class="edit-segment-subtitle">Timestamp: 02:03 - 02:08 | Chunk #1</p>
+                </div>
+                <button id="closeEditSegmentModalBtn" class="btn btn-secondary btn-sm close-round-btn">&times;</button>
+            </div>
+
+            <!-- Editable High-Precision / Normalized Text -->
+            <div class="edit-field-group">
+                <label class="edit-field-label">
+                    High-Precision Contextual Text (Used for Summaries, Notes, Search & Q&A)
+                </label>
+                <textarea id="editSegmentNormText" rows="3" class="edit-textarea"></textarea>
+            </div>
+
+            <!-- Editable Acoustic Spoken Text -->
+            <div class="edit-field-group">
+                <label class="edit-field-sublabel">
+                    Acoustic Spoken Text (Whisper raw phonetic tokens)
+                </label>
+                <textarea id="editSegmentRawText" rows="2" class="edit-textarea-secondary"></textarea>
+            </div>
+
+            <!-- Downstream Recomputation Scope Selector -->
+            <div class="edit-field-group">
+                <label class="edit-field-label">
+                    Downstream Recomputation Scope
+                </label>
+                <div class="scope-options-group">
+                    <label class="scope-option-label" id="scopeFullLabel">
+                        <input type="radio" name="editRecomputeScope" value="full" checked class="scope-radio">
+                        <div>
+                            <strong class="scope-title">Full Recording Recompute (Recommended — 100% Consistent)</strong>
+                            <div class="scope-desc">
+                                Recomputes segment embeddings, and automatically regenerates executive summary, topic notes, assignments, quizzes, and Q&A grounding (~1.5s).
+                            </div>
+                        </div>
+                    </label>
+                    <label class="scope-option-label secondary-scope" id="scopeChunkLabel">
+                        <input type="radio" name="editRecomputeScope" value="chunk" class="scope-radio">
+                        <div>
+                            <strong class="scope-title">Fast Chunk Recompute (Instant — &lt;0.5s)</strong>
+                            <div class="scope-desc">
+                                Updates this segment's text and vector embedding immediately. Skips full document summary re-synthesis.
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Status message container (loading spinner or errors) -->
+            <div id="editSegmentStatusMsg" class="hidden"></div>
+
+            <!-- Action buttons -->
+            <div class="edit-modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" id="cancelEditSegmentBtn">Cancel</button>
+                <button type="button" class="btn btn-primary btn-sm save-segment-btn" id="saveEditSegmentBtn">
+                    <span>Save & Propagate</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js?v=4.4.0"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONUTF8": "1"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.encoding": "utf8",
+    "python.terminal.activateEnvironment": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
+}

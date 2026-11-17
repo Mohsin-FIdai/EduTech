@@ -1,0 +1,1261 @@
+{
+  "model": "base",
+  "device": "cpu",
+  "initial_prompt": "Operating System",
+  "elapsed_seconds": 483.96,
+  "ram_before": {
+    "avail_gb": 0.59,
+    "load_pct": 92
+  },
+  "ram_after": {
+    "avail_gb": 0.599,
+    "load_pct": 92
+  },
+  "process_peak_ws_mb": 0.0,
+  "total_chunks": 21,
+  "total_raw_segments": 88,
+  "total_filtered_as_noise": 8,
+  "chunks": [
+    {
+      "chunk_id": "5a5a54f3-3185-45b7-bb89-dd7aaf7122a5",
+      "chunk_index": 0,
+      "start_time": 0.0,
+      "end_time": 24.791,
+      "duration": 24.791,
+      "rms_dbfs": -17.35,
+      "vad_speech_seconds": 17.8,
+      "vad_silence_seconds": 7.49,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.5,
+          "raw_text": "Assalamu alaikum everyone.",
+          "scrubbed_text": "Assalamu alaikum everyone.",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 3.5,
+          "end": 10.5,
+          "raw_text": "Aacha So today we are going to start an important topic of Operating System and that is Process scheduling.",
+          "scrubbed_text": "Aacha So today we are going to start an important topic of Operating System and that is Process scheduling.",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 10.5,
+          "end": 14.5,
+          "raw_text": "If you have opened multiple applications in your computer,",
+          "scrubbed_text": "If you have opened multiple applications in your computer,",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 14.5,
+          "end": 19.0,
+          "raw_text": "For example Chrome, VS Code, Spotify, maybe WhatsApp, Desktop",
+          "scrubbed_text": "For example Chrome, VS Code, Spotify, maybe WhatsApp, Desktop",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 19.0,
+          "end": 22.5,
+          "raw_text": "and you think that all the applications are not simultaneously running.",
+          "scrubbed_text": "and you think that all the applications are not simultaneously running.",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 22.5,
+          "end": 24.5,
+          "raw_text": "So technically the picture is very different.",
+          "scrubbed_text": "So technically the picture is very different.",
+          "avg_logprob": -0.5936,
+          "no_speech_prob": 0.1997,
+          "compression_ratio": 1.51,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "74673ff6-4ec2-4995-865d-c43186ab3475",
+      "chunk_index": 1,
+      "start_time": 24.791,
+      "end_time": 48.541,
+      "duration": 23.75,
+      "rms_dbfs": -17.31,
+      "vad_speech_seconds": 18.89,
+      "vad_silence_seconds": 5.86,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 24.791,
+          "end": 49.541,
+          "raw_text": "CPUs-1-1-1-1-1-2-3-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-2-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-",
+          "scrubbed_text": "CPUs-1-2-3-1-2-1-2-1-2-1-",
+          "avg_logprob": -0.1768,
+          "no_speech_prob": 0.4097,
+          "compression_ratio": 7.759,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "59c86f3b-2e21-4d45-85dd-1526afdf21a7",
+      "chunk_index": 2,
+      "start_time": 48.541,
+      "end_time": 69.251,
+      "duration": 20.71,
+      "rms_dbfs": -17.17,
+      "vad_speech_seconds": 13.89,
+      "vad_silence_seconds": 7.82,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 48.541,
+          "end": 70.251,
+          "raw_text": "s",
+          "scrubbed_text": "s",
+          "avg_logprob": -2.6813,
+          "no_speech_prob": 0.3825,
+          "compression_ratio": 0.111,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "279f2183-ea4d-4c50-9f89-2cf13152392b",
+      "chunk_index": 3,
+      "start_time": 69.251,
+      "end_time": 89.786,
+      "duration": 20.535,
+      "rms_dbfs": -18.29,
+      "vad_speech_seconds": 12.39,
+      "vad_silence_seconds": 9.15,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 69.251,
+          "end": 75.251,
+          "raw_text": "Program Process or Threat Program Basically Inceptions of passive collection For example,",
+          "scrubbed_text": "Program Process or Threat Program Basically Inceptions of passive collection For example,",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 75.251,
+          "end": 79.251,
+          "raw_text": "When you have an application's executable file disk on it,",
+          "scrubbed_text": "When you have an application's executable file disk on it,",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 79.251,
+          "end": 82.251,
+          "raw_text": "it is in the program, when it is executed,",
+          "scrubbed_text": "it is in the program, when it is executed,",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 82.251,
+          "end": 84.251,
+          "raw_text": "it is called running instance,",
+          "scrubbed_text": "it is called running instance,",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 84.251,
+          "end": 87.251,
+          "raw_text": "we call it instance,",
+          "scrubbed_text": "we call it instance,",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 87.251,
+          "end": 90.251,
+          "raw_text": "so if I give a Chrome",
+          "scrubbed_text": "so if I give a Chrome",
+          "avg_logprob": -0.9599,
+          "no_speech_prob": 0.2113,
+          "compression_ratio": 1.506,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "87df3beb-4126-4d3a-8bc9-6e165dcd9b97",
+      "chunk_index": 4,
+      "start_time": 89.786,
+      "end_time": 116.926,
+      "duration": 27.14,
+      "rms_dbfs": -17.58,
+      "vad_speech_seconds": 19.24,
+      "vad_silence_seconds": 8.9,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 89.786,
+          "end": 99.786,
+          "raw_text": "So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+          "scrubbed_text": "So if I have two different windows in the context of the instances, I can run multiple processes with the perspective of the system.",
+          "avg_logprob": -0.5784,
+          "no_speech_prob": 0.3311,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 99.786,
+          "end": 102.786,
+          "raw_text": "What is the state of the process?",
+          "scrubbed_text": "What is the state of the process?",
+          "avg_logprob": -0.5784,
+          "no_speech_prob": 0.3311,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 102.786,
+          "end": 108.786,
+          "raw_text": "A process is generally new, ready running waiting block and terminated state.",
+          "scrubbed_text": "A process is generally new, ready running waiting block and terminated state.",
+          "avg_logprob": -0.5784,
+          "no_speech_prob": 0.3311,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 108.786,
+          "end": 110.786,
+          "raw_text": "New process is also being created.",
+          "scrubbed_text": "New process is also being created.",
+          "avg_logprob": -0.5784,
+          "no_speech_prob": 0.3311,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 110.786,
+          "end": 115.966,
+          "raw_text": "RID, cpu cpu, cpu currently cc eор,",
+          "scrubbed_text": "RID, cpu cpu, cpu currently cc eор,",
+          "avg_logprob": -2.4121,
+          "no_speech_prob": 0.5383,
+          "compression_ratio": 1.0,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        },
+        {
+          "start": 115.966,
+          "end": 117.366,
+          "raw_text": "Melawe",
+          "scrubbed_text": "Melawe",
+          "avg_logprob": -2.3547,
+          "no_speech_prob": 0.5472,
+          "compression_ratio": 0.429,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "57269835-97da-405e-8142-88f79fc1f860",
+      "chunk_index": 5,
+      "start_time": 116.926,
+      "end_time": 144.486,
+      "duration": 27.56,
+      "rms_dbfs": -18.45,
+      "vad_speech_seconds": 18.86,
+      "vad_silence_seconds": 9.7,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 116.926,
+          "end": 123.926,
+          "raw_text": "RANNING process currently CPU is used, waiting or block process is waiting for any event.",
+          "scrubbed_text": "RANNING process currently CPU is used, waiting or block process is waiting for any event.",
+          "avg_logprob": -0.892,
+          "no_speech_prob": 0.4645,
+          "compression_ratio": 1.402,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 123.926,
+          "end": 128.926,
+          "raw_text": "Like disk IO compute and time written main process is finished.",
+          "scrubbed_text": "Like disk IO compute and time written main process is finished.",
+          "avg_logprob": -0.892,
+          "no_speech_prob": 0.4645,
+          "compression_ratio": 1.402,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 128.926,
+          "end": 131.926,
+          "raw_text": "Here common confusion is shown.",
+          "scrubbed_text": "Here common confusion is shown.",
+          "avg_logprob": -0.892,
+          "no_speech_prob": 0.4645,
+          "compression_ratio": 1.402,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 131.926,
+          "end": 136.926,
+          "raw_text": "Sir, if the process is ready, then why don't you give CPU?",
+          "scrubbed_text": "Sir, if the process is ready, then why don't you give CPU?",
+          "avg_logprob": -0.892,
+          "no_speech_prob": 0.4645,
+          "compression_ratio": 1.402,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 136.926,
+          "end": 140.926,
+          "raw_text": "prasad becaus je pls",
+          "scrubbed_text": "prasad becaus je pls",
+          "avg_logprob": -3.1156,
+          "no_speech_prob": 0.4978,
+          "compression_ratio": 0.733,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 140.926,
+          "end": 165.646,
+          "raw_text": "s",
+          "scrubbed_text": "s",
+          "avg_logprob": -3.1156,
+          "no_speech_prob": 0.4978,
+          "compression_ratio": 0.733,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "29531662-44a6-46e9-b48a-6e85e6965db4",
+      "chunk_index": 6,
+      "start_time": 144.486,
+      "end_time": 168.971,
+      "duration": 24.485,
+      "rms_dbfs": -18.41,
+      "vad_speech_seconds": 15.91,
+      "vad_silence_seconds": 9.57,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 144.486,
+          "end": 154.486,
+          "raw_text": "It does not mean CPU automatically will get that process. CPU scheduler decides to skip the radio.",
+          "scrubbed_text": "It does not mean CPU automatically will get that process. CPU scheduler decides to skip the radio.",
+          "avg_logprob": -0.804,
+          "no_speech_prob": 0.3607,
+          "compression_ratio": 1.278,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 154.486,
+          "end": 160.486,
+          "raw_text": "Now you can imagine the radio output of the CPU. Suppose we have a P1, P2, P3 and P4.",
+          "scrubbed_text": "Now you can imagine the radio output of the CPU. Suppose we have a P1, P2, P3 and P4.",
+          "avg_logprob": -0.804,
+          "no_speech_prob": 0.3607,
+          "compression_ratio": 1.278,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 160.486,
+          "end": 182.546,
+          "raw_text": "L",
+          "scrubbed_text": "L",
+          "avg_logprob": -3.2514,
+          "no_speech_prob": 0.1272,
+          "compression_ratio": 0.111,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "b3c36696-165c-42f1-a91c-9dadd22d6cb3",
+      "chunk_index": 7,
+      "start_time": 168.971,
+      "end_time": 194.751,
+      "duration": 25.78,
+      "rms_dbfs": -17.07,
+      "vad_speech_seconds": 17.86,
+      "vad_silence_seconds": 8.92,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 168.971,
+          "end": 179.971,
+          "raw_text": "Now, we have come to the first process. We have started the process first time. We have started it first time. We have also seen the purity of the process.",
+          "scrubbed_text": "Now, we have come to the first process. We have started the process first time. We have started it first time. We have also seen the purity of the process.",
+          "avg_logprob": -0.9007,
+          "no_speech_prob": 0.4106,
+          "compression_ratio": 1.897,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 179.971,
+          "end": 186.971,
+          "raw_text": "We have seen every process equal time, slices of the process. These different processes are called scheduling algorithms.",
+          "scrubbed_text": "We have seen every process equal time, slices of the process. These different processes are called scheduling algorithms.",
+          "avg_logprob": -0.9007,
+          "no_speech_prob": 0.4106,
+          "compression_ratio": 1.897,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 186.971,
+          "end": 187.971,
+          "raw_text": "Today's lecture.",
+          "scrubbed_text": "Today's lecture.",
+          "avg_logprob": -1.9481,
+          "no_speech_prob": 0.2485,
+          "compression_ratio": 1.138,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 187.971,
+          "end": 193.991,
+          "raw_text": "May, we will discuss about the concept HDF, S-R-T-EF and pre-audiences scheduling on the round",
+          "scrubbed_text": "May, we will discuss about the concept HDF, S-R-T-EF and pre-audiences scheduling on the round",
+          "avg_logprob": -1.9481,
+          "no_speech_prob": 0.2485,
+          "compression_ratio": 1.138,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 193.991,
+          "end": 195.951,
+          "raw_text": "of Robin Discussion.",
+          "scrubbed_text": "of Robin Discussion.",
+          "avg_logprob": -1.9481,
+          "no_speech_prob": 0.2485,
+          "compression_ratio": 1.138,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "c30101b3-509f-413d-a9ca-0562af478571",
+      "chunk_index": 8,
+      "start_time": 194.751,
+      "end_time": 220.821,
+      "duration": 26.07,
+      "rms_dbfs": -18.13,
+      "vad_speech_seconds": 17.74,
+      "vad_silence_seconds": 9.33,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 194.751,
+          "end": 200.751,
+          "raw_text": "In Algorithms, I will explain the importance of exam and definition of numerical questions.",
+          "scrubbed_text": "In Algorithms, I will explain the importance of exam and definition of numerical questions.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 200.751,
+          "end": 207.751,
+          "raw_text": "I will explain the example of all algorithms and then I will give the same answer.",
+          "scrubbed_text": "I will explain the example of all algorithms and then I will give the same answer.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 207.751,
+          "end": 211.751,
+          "raw_text": "Let's start with FCFS.",
+          "scrubbed_text": "Let's start with FCFS.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 211.751,
+          "end": 213.751,
+          "raw_text": "FCFS means first come first served.",
+          "scrubbed_text": "FCFS means first come first served.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 213.751,
+          "end": 215.751,
+          "raw_text": "The idea of the name is coming.",
+          "scrubbed_text": "The idea of the name is coming.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 215.751,
+          "end": 217.751,
+          "raw_text": "The first CPU that came in the ADQ,",
+          "scrubbed_text": "The first CPU that came in the ADQ,",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 217.751,
+          "end": 219.751,
+          "raw_text": "will be found in the CPU.",
+          "scrubbed_text": "will be found in the CPU.",
+          "avg_logprob": -0.8744,
+          "no_speech_prob": 0.3241,
+          "compression_ratio": 1.611,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 219.751,
+          "end": 221.751,
+          "raw_text": "Exactly like banking team.",
+          "scrubbed_text": "Exactly like banking team.",
+          "avg_logprob": -0.9485,
+          "no_speech_prob": 0.041,
+          "compression_ratio": 0.765,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "294e60c8-993c-4b85-a3b6-906911ea6ea8",
+      "chunk_index": 9,
+      "start_time": 220.821,
+      "end_time": 245.816,
+      "duration": 24.995,
+      "rms_dbfs": -18.72,
+      "vad_speech_seconds": 19.13,
+      "vad_silence_seconds": 6.87,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 220.821,
+          "end": 242.161,
+          "raw_text": "P2 or E1ms, P2 or E1ms, P3 or E1ms, P3 or E1ms, P3 or E1ms.",
+          "scrubbed_text": "P2 or E1ms, P2 or E1ms, P3 or E1ms, P3 or E1ms, P3 or E1ms.",
+          "avg_logprob": -0.7572,
+          "no_speech_prob": 0.3218,
+          "compression_ratio": 2.185,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 242.161,
+          "end": 246.161,
+          "raw_text": "FCFS may be the first run because it is the first run",
+          "scrubbed_text": "FCFS may be the first run because it is the first run",
+          "avg_logprob": -0.9759,
+          "no_speech_prob": 0.1229,
+          "compression_ratio": 1.104,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "cd458734-8bdf-4ccc-8959-842a2650fbf5",
+      "chunk_index": 10,
+      "start_time": 245.816,
+      "end_time": 269.361,
+      "duration": 23.545,
+      "rms_dbfs": -19.68,
+      "vad_speech_seconds": 16.79,
+      "vad_silence_seconds": 7.75,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 245.816,
+          "end": 252.816,
+          "raw_text": "P2 and P3 are waiting for P1 to be complete after 8mins.",
+          "scrubbed_text": "P2 and P3 are waiting for P1 to be complete after 8mins.",
+          "avg_logprob": -0.8342,
+          "no_speech_prob": 0.3687,
+          "compression_ratio": 1.461,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 252.816,
+          "end": 255.816,
+          "raw_text": "P3 is the first time only for 5mins.",
+          "scrubbed_text": "P3 is the first time only for 5mins.",
+          "avg_logprob": -0.8342,
+          "no_speech_prob": 0.3687,
+          "compression_ratio": 1.461,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 255.816,
+          "end": 259.816,
+          "raw_text": "But we have to wait for P1 to be complete for 8mins.",
+          "scrubbed_text": "But we have to wait for P1 to be complete for 8mins.",
+          "avg_logprob": -0.8342,
+          "no_speech_prob": 0.3687,
+          "compression_ratio": 1.461,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 259.816,
+          "end": 264.816,
+          "raw_text": "A small process is facing unnecessary delay.",
+          "scrubbed_text": "A small process is facing unnecessary delay.",
+          "avg_logprob": -0.8342,
+          "no_speech_prob": 0.3687,
+          "compression_ratio": 1.461,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 264.816,
+          "end": 266.816,
+          "raw_text": "यह लिवनामना को बहीं प्रत केता है?",
+          "scrubbed_text": "यह लिवनामना को बहीं प्रत केता है?",
+          "avg_logprob": -0.9545,
+          "no_speech_prob": 0.4736,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": true
+        },
+        {
+          "start": 266.816,
+          "end": 268.816,
+          "raw_text": "कोन बहीं प्रत में",
+          "scrubbed_text": "कोन बहीं प्रत में",
+          "avg_logprob": -0.9545,
+          "no_speech_prob": 0.4736,
+          "compression_ratio": 1.541,
+          "temperature": 0.0,
+          "filtered_as_noise": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "f13de4b4-c0ae-4c9b-a963-dbc95ca2f086",
+      "chunk_index": 11,
+      "start_time": 269.361,
+      "end_time": 297.336,
+      "duration": 27.975,
+      "rms_dbfs": -19.06,
+      "vad_speech_seconds": 19.44,
+      "vad_silence_seconds": 9.53,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 269.361,
+          "end": 275.361,
+          "raw_text": "Basically short process, a long process is used in the future line.",
+          "scrubbed_text": "Basically short process, a long process is used in the future line.",
+          "avg_logprob": -0.9376,
+          "no_speech_prob": 0.202,
+          "compression_ratio": 1.562,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 275.361,
+          "end": 279.361,
+          "raw_text": "Like motorway, there is a slow truck and the rear of it is a complete line.",
+          "scrubbed_text": "Like motorway, there is a slow truck and the rear of it is a complete line.",
+          "avg_logprob": -0.9376,
+          "no_speech_prob": 0.202,
+          "compression_ratio": 1.562,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 279.361,
+          "end": 284.361,
+          "raw_text": "The car is theoretically fast and the practical speed slow is being tracked.",
+          "scrubbed_text": "The car is theoretically fast and the practical speed slow is being tracked.",
+          "avg_logprob": -0.9376,
+          "no_speech_prob": 0.202,
+          "compression_ratio": 1.562,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 284.361,
+          "end": 288.361,
+          "raw_text": "The same concept, even in CPU scheduling.",
+          "scrubbed_text": "The same concept, even in CPU scheduling.",
+          "avg_logprob": -0.9376,
+          "no_speech_prob": 0.202,
+          "compression_ratio": 1.562,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 288.361,
+          "end": 294.361,
+          "raw_text": "FCFS's advantage is that, if we are not able to see the standard of the system,",
+          "scrubbed_text": "FCFS's advantage is that, if we are not able to see the standard of the system,",
+          "avg_logprob": -0.9376,
+          "no_speech_prob": 0.202,
+          "compression_ratio": 1.562,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 294.361,
+          "end": 303.981,
+          "raw_text": "यह इलेहीं मीलने यह आदे मैं जलिव़िकोटी परसे पे खिव में बहीं एदन जलिव़ि की कोरे हैं।",
+          "scrubbed_text": "यह इलेहीं मीलने यह आदे मैं जलिव़िकोटी परसे पे खिव में बहीं एदन जलिव़ि की कोरे हैं।",
+          "avg_logprob": -1.8497,
+          "no_speech_prob": 0.3178,
+          "compression_ratio": 1.712,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        }
+      ]
+    },
+    {
+      "chunk_id": "8811f9b7-ffcd-44ac-8656-1e84cda97332",
+      "chunk_index": 12,
+      "start_time": 297.336,
+      "end_time": 323.836,
+      "duration": 26.5,
+      "rms_dbfs": -20.33,
+      "vad_speech_seconds": 18.04,
+      "vad_silence_seconds": 9.46,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 297.336,
+          "end": 320.456,
+          "raw_text": "1.30 PX.",
+          "scrubbed_text": "1.30 PX.",
+          "avg_logprob": -2.9324,
+          "no_speech_prob": 0.2645,
+          "compression_ratio": 0.5,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "541fdf02-42d8-4589-87f1-a141c02d04eb",
+      "chunk_index": 13,
+      "start_time": 323.836,
+      "end_time": 347.186,
+      "duration": 23.35,
+      "rms_dbfs": -21.36,
+      "vad_speech_seconds": 14.25,
+      "vad_silence_seconds": 10.1,
+      "detected_language": "en",
+      "segments": [
+        {
+          "start": 323.836,
+          "end": 332.836,
+          "raw_text": "P2 is a rival time one completion time 10, first time 2, so turn around time 10 minus 1 equals 9.",
+          "scrubbed_text": "P2 is a rival time one completion time 10, first time 2, so turn around time 10 minus 1 equals 9.",
+          "avg_logprob": -0.6735,
+          "no_speech_prob": 0.0872,
+          "compression_ratio": 1.497,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 332.836,
+          "end": 337.836,
+          "raw_text": "Or wedding time 9 minus 2 equals 7 milliseconds. So P2 in actually CPU percent 2 milliseconds",
+          "scrubbed_text": "Or wedding time 9 minus 2 equals 7 milliseconds. So P2 in actually CPU percent 2 milliseconds",
+          "avg_logprob": -0.6735,
+          "no_speech_prob": 0.0872,
+          "compression_ratio": 1.497,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 337.836,
+          "end": 342.836,
+          "raw_text": "are calm here. But it's not total 9 milliseconds system is spent here.",
+          "scrubbed_text": "are calm here. But it's not total 9 milliseconds system is spent here.",
+          "avg_logprob": -0.6735,
+          "no_speech_prob": 0.0872,
+          "compression_ratio": 1.497,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 342.836,
+          "end": 345.836,
+          "raw_text": "Now, next algorithm is shortest job first.",
+          "scrubbed_text": "Now, next algorithm is shortest job first.",
+          "avg_logprob": -0.8075,
+          "no_speech_prob": 0.1609,
+          "compression_ratio": 0.864,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 345.836,
+          "end": 347.836,
+          "raw_text": "Go, SJF.",
+          "scrubbed_text": "Go, SJF.",
+          "avg_logprob": -0.8075,
+          "no_speech_prob": 0.1609,
+          "compression_ratio": 0.864,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "95a213ec-95c4-4667-b2b9-7416a86b331d",
+      "chunk_index": 14,
+      "start_time": 347.186,
+      "end_time": 374.706,
+      "duration": 27.52,
+      "rms_dbfs": -21.32,
+      "vad_speech_seconds": 19.11,
+      "vad_silence_seconds": 9.41,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 347.186,
+          "end": 375.706,
+          "raw_text": "Reset",
+          "scrubbed_text": "Reset",
+          "avg_logprob": -2.3289,
+          "no_speech_prob": 0.1457,
+          "compression_ratio": 0.385,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "24df294b-8e5a-4deb-9364-81df83c53d34",
+      "chunk_index": 15,
+      "start_time": 374.706,
+      "end_time": 399.516,
+      "duration": 24.81,
+      "rms_dbfs": -22.03,
+      "vad_speech_seconds": 15.97,
+      "vad_silence_seconds": 9.84,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 374.706,
+          "end": 400.516,
+          "raw_text": "run",
+          "scrubbed_text": "run",
+          "avg_logprob": -4.8796,
+          "no_speech_prob": 0.2932,
+          "compression_ratio": 0.273,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "e509f804-ee54-4087-9529-5cf04b75a7fb",
+      "chunk_index": 16,
+      "start_time": 399.516,
+      "end_time": 426.856,
+      "duration": 27.34,
+      "rms_dbfs": -20.49,
+      "vad_speech_seconds": 17.74,
+      "vad_silence_seconds": 10.6,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 399.516,
+          "end": 405.516,
+          "raw_text": "P1-10 post-pone process is done, we can wait for it for a while, it is called starvation.",
+          "scrubbed_text": "P1-10 post-pone process is done, we can wait for it for a while, it is called starvation.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 405.516,
+          "end": 409.516,
+          "raw_text": "Now we will reduce the related funds.",
+          "scrubbed_text": "Now we will reduce the related funds.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 409.516,
+          "end": 410.516,
+          "raw_text": "Aging.",
+          "scrubbed_text": "Aging.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 410.516,
+          "end": 412.516,
+          "raw_text": "Aging and process is to prevent starvation.",
+          "scrubbed_text": "Aging and process is to prevent starvation.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 412.516,
+          "end": 415.516,
+          "raw_text": "Now process is very much waiting for it.",
+          "scrubbed_text": "Now process is very much waiting for it.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 415.516,
+          "end": 418.516,
+          "raw_text": "Operating System can increase the periodic region of the system.",
+          "scrubbed_text": "Operating System can increase the periodic region of the system.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 418.516,
+          "end": 420.516,
+          "raw_text": "We are saying that the system is going to be good.",
+          "scrubbed_text": "We are saying that the system is going to be good.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 420.516,
+          "end": 422.516,
+          "raw_text": "You are waiting very long.",
+          "scrubbed_text": "You are waiting very long.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 422.516,
+          "end": 424.516,
+          "raw_text": "Now your periodicity increases.",
+          "scrubbed_text": "Now your periodicity increases.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 424.516,
+          "end": 427.516,
+          "raw_text": "So, aging is a technique for preventing...",
+          "scrubbed_text": "So, aging is a technique for preventing.",
+          "avg_logprob": -0.8469,
+          "no_speech_prob": 0.3277,
+          "compression_ratio": 1.769,
+          "temperature": 0.2,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "58ddad01-79f3-4a26-a1c4-a21a791b14a6",
+      "chunk_index": 17,
+      "start_time": 426.856,
+      "end_time": 450.721,
+      "duration": 23.865,
+      "rms_dbfs": -20.46,
+      "vad_speech_seconds": 13.21,
+      "vad_silence_seconds": 11.66,
+      "detected_language": "en",
+      "segments": [
+        {
+          "start": 426.856,
+          "end": 431.496,
+          "raw_text": "In Definite Post-Ponament.",
+          "scrubbed_text": "In Definite Post-Ponament.",
+          "avg_logprob": -0.8618,
+          "no_speech_prob": 0.2555,
+          "compression_ratio": 1.38,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 431.496,
+          "end": 438.296,
+          "raw_text": "Now, SGF's preemptive version is understood by the system called shortest remaining time",
+          "scrubbed_text": "Now, SGF's preemptive version is understood by the system called shortest remaining time",
+          "avg_logprob": -0.8618,
+          "no_speech_prob": 0.2555,
+          "compression_ratio": 1.38,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 438.296,
+          "end": 441.296,
+          "raw_text": "first, SRTF.",
+          "scrubbed_text": "first, SRTF.",
+          "avg_logprob": -0.8618,
+          "no_speech_prob": 0.2555,
+          "compression_ratio": 1.38,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 441.296,
+          "end": 445.136,
+          "raw_text": "Different subtlety is important.",
+          "scrubbed_text": "Different subtlety is important.",
+          "avg_logprob": -0.8618,
+          "no_speech_prob": 0.2555,
+          "compression_ratio": 1.38,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 445.136,
+          "end": 449.896,
+          "raw_text": "SGF's non-preemptive is the one-suprocessed sketch if you would normally continue the",
+          "scrubbed_text": "SGF's non-preemptive is the one-suprocessed sketch if you would normally continue the",
+          "avg_logprob": -0.8618,
+          "no_speech_prob": 0.2555,
+          "compression_ratio": 1.38,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 449.896,
+          "end": 451.896,
+          "raw_text": "until it burst finishes.",
+          "scrubbed_text": "until it burst finishes.",
+          "avg_logprob": -0.9056,
+          "no_speech_prob": 0.2945,
+          "compression_ratio": 0.75,
+          "temperature": 0.0,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "f0f6211d-ca55-451e-9e8e-1b2457ac92b4",
+      "chunk_index": 18,
+      "start_time": 450.721,
+      "end_time": 476.656,
+      "duration": 25.935,
+      "rms_dbfs": -20.92,
+      "vad_speech_seconds": 15.21,
+      "vad_silence_seconds": 11.72,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 450.721,
+          "end": 458.721,
+          "raw_text": "SETF may have a new process and it is running for the remaining bus and short time.",
+          "scrubbed_text": "SETF may have a new process and it is running for the remaining bus and short time.",
+          "avg_logprob": -0.9614,
+          "no_speech_prob": 0.5655,
+          "compression_ratio": 1.534,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 458.721,
+          "end": 461.721,
+          "raw_text": "Scorching and current process can be preemnt done.",
+          "scrubbed_text": "Scorching and current process can be preemnt done.",
+          "avg_logprob": -0.9614,
+          "no_speech_prob": 0.5655,
+          "compression_ratio": 1.534,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 461.721,
+          "end": 472.721,
+          "raw_text": "For example P1 start with the bus of 8ms after 2mph, P2 arrives with the bus of 3mph.",
+          "scrubbed_text": "For example P1 start with the bus of 8ms after 2mph, P2 arrives with the bus of 3mph.",
+          "avg_logprob": -0.9614,
+          "no_speech_prob": 0.5655,
+          "compression_ratio": 1.534,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 472.721,
+          "end": 476.721,
+          "raw_text": "P1 is Mm times 6mph, P2 is the total bus times 3mph.",
+          "scrubbed_text": "P1 is Mm times 6mph, P2 is the total bus times 3mph.",
+          "avg_logprob": -0.9614,
+          "no_speech_prob": 0.5655,
+          "compression_ratio": 1.534,
+          "temperature": 0.4,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "4080ffc0-9833-4e59-aca9-6a902a5c6f3c",
+      "chunk_index": 19,
+      "start_time": 476.656,
+      "end_time": 499.761,
+      "duration": 23.105,
+      "rms_dbfs": -22.6,
+      "vad_speech_seconds": 15.1,
+      "vad_silence_seconds": 9.01,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 476.856,
+          "end": 483.576,
+          "raw_text": "S RTF P2 is the P2, cpu is the only P2.",
+          "scrubbed_text": "S RTF P2 is the P2, cpu is the only P2.",
+          "avg_logprob": -2.3447,
+          "no_speech_prob": 0.4,
+          "compression_ratio": 1.47,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 483.576,
+          "end": 487.736,
+          "raw_text": "P2 is the P2, P3 is the only P1.",
+          "scrubbed_text": "P2 is the P2, P3 is the only P1.",
+          "avg_logprob": -2.3447,
+          "no_speech_prob": 0.4,
+          "compression_ratio": 1.47,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        },
+        {
+          "start": 487.736,
+          "end": 493.976,
+          "raw_text": "For showing us the same amount we collected and you'll see the difference in the same amount of P2.",
+          "scrubbed_text": "For showing us the same amount we collected and you'll see the difference in the same amount of P2.",
+          "avg_logprob": -2.3447,
+          "no_speech_prob": 0.4,
+          "compression_ratio": 1.47,
+          "temperature": 0.8,
+          "filtered_as_noise": false
+        }
+      ]
+    },
+    {
+      "chunk_id": "510887ab-ad88-4f15-8827-d77ccf89919a",
+      "chunk_index": 20,
+      "start_time": 499.761,
+      "end_time": 510.911,
+      "duration": 11.15,
+      "rms_dbfs": -23.66,
+      "vad_speech_seconds": 3.72,
+      "vad_silence_seconds": 7.93,
+      "detected_language": "hi",
+      "segments": [
+        {
+          "start": 499.761,
+          "end": 511.401,
+          "raw_text": "",
+          "scrubbed_text": "",
+          "avg_logprob": -1.1368,
+          "no_speech_prob": 0.1833,
+          "compression_ratio": 0.0,
+          "temperature": 0.8,
+          "filtered_as_noise": true
+        }
+      ]
+    }
+  ]
+}

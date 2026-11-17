@@ -1,0 +1,32 @@
+{
+  "id": "operating_systems_03",
+  "expected_domain": "operating_systems",
+  "transcript": "Assalamu alaikum everyone. Today we are discussing CPU scheduling algorithms in modern operating systems. First-Come First-Served yani FCFS sab se basic non-preemptive algorithm hai. Lekin FCFS ka sab se bara drawback hai Convoy Effect. Convoy effect tab hota hai jab ek process with very long burst time processor ko hold kar leta hai, aur choti burst time wale process ready queue mein wait karte rehte hain. Is se average waiting time dramatically increase ho jata hai. Turnaround time calculate karne ka formula hai completion time minus arrival time, aur waiting time is turnaround time minus burst time. Modern systems is problem ko solve karne ke liye Round Robin ya preemptive Shortest Remaining Time First use karte hain with a fixed time quantum.",
+  "expected_concepts": [
+    "cpu scheduling",
+    "fcfs",
+    "convoy effect",
+    "burst time",
+    "ready queue",
+    "turnaround time",
+    "waiting time",
+    "round robin",
+    "time quantum"
+  ],
+  "foreign_terms_to_watch": [
+    "profit",
+    "accrual",
+    "depreciation",
+    "cash flow",
+    "working capital",
+    "supervised learning",
+    "classification",
+    "regression",
+    "reflex arc",
+    "sensory neuron",
+    "ohm's law",
+    "ampere",
+    "fintech",
+    "digital wallet"
+  ]
+}

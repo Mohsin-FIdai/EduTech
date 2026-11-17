@@ -1,0 +1,99 @@
+{
+  "ram_before": {
+    "avail_gb": 1.048,
+    "load_pct": 86
+  },
+  "ram_after": {
+    "avail_gb": 1.05,
+    "load_pct": 86
+  },
+  "queries": [
+    {
+      "query": "What is a process?",
+      "result": {
+        "status": "success",
+        "found": true,
+        "question": "What is a process?",
+        "answer": "**Program vs Process vs Thread**:\n\n• **Program**: A passive collection of code stored statically on disk.\n• **Process**: An active, running instance of a program in memory with dedicated PCB and CPU registers.\n• **Thread**: A lightweight execution unit within a process sharing memory.\n\nEvidence: 00:04–00:22",
+        "timestamp": "[3.50s - 22.50s]",
+        "start_time": 3.5,
+        "end_time": 22.5,
+        "citations": [
+          {
+            "timestamp": "00:04–00:22 - Program vs Process vs Thread",
+            "start_time": 3.5,
+            "end_time": 22.5
+          }
+        ],
+        "confidence": 0.98,
+        "source_segment": "This section explores Process Scheduling: Acha So today we are going to start an important topic of Operating System and that is Process scheduling. If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running. Acha So today we are going to start an important topic of Operating System and that is Process scheduling. If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running. Assalamu alaikum everyone. Acha So today we are going to start an important topic of Operating System and that is Process scheduling. If you have opened multiple applications in your computer, For example Chrome, VS Code Spotify, maybe WhatsApp, Desktop and you think that all the applications are not simultaneously running. So technically the picture is very different.",
+        "evidence": [
+          {
+            "start": 0.0,
+            "end": 3.5,
+            "segment_id": 0,
+            "text": "Assalamu alaikum everyone."
+          }
+        ]
+      }
+    },
+    {
+      "query": "What did the lecturer explain at 02:35?",
+      "result": {
+        "status": "success",
+        "found": true,
+        "question": "What did the lecturer explain at 02:35?",
+        "answer": "**Lecture Discussion at 02:35** ([168.97s - 176.97s]):\n\n> *\"Now we have come to the first process, first time we have to start the process, first time we have to start it.\"*\n\nEvidence: 02:35 ([168.97s - 176.97s])",
+        "timestamp": "[168.97s - 176.97s]",
+        "start_time": 168.97,
+        "end_time": 176.97,
+        "citations": [
+          {
+            "timestamp": "02:35 - Lecture Discussion",
+            "start_time": 168.97,
+            "end_time": 176.97
+          }
+        ],
+        "confidence": 0.96,
+        "source_segment": "Now we have come to the first process, first time we have to start the process, first time we have to start it.",
+        "evidence": [
+          {
+            "start": 168.97,
+            "end": 176.97,
+            "segment_id": 19,
+            "text": "Now we have come to the first process, first time we have to start the process, first time we have to start it."
+          }
+        ]
+      }
+    },
+    {
+      "query": "How does aging prevent starvation?",
+      "result": {
+        "status": "success",
+        "found": true,
+        "question": "How does aging prevent starvation?",
+        "answer": "**Shortest Job First (SJF)** selects the process with the shortest CPU burst next, provably minimizing average waiting time. Long processes can suffer **Starvation**, which the OS prevents using **Aging** (gradually increasing process priority over time).\n\nEvidence: 06:46–07:53",
+        "timestamp": "[406.00s - 472.72s]",
+        "start_time": 406.0,
+        "end_time": 472.72,
+        "citations": [
+          {
+            "timestamp": "06:46 - System Call",
+            "start_time": 406.0,
+            "end_time": 472.72
+          }
+        ],
+        "confidence": 0.98,
+        "source_segment": "This section explores System Call: Paging is a technique for preventing. We will reduce the related funds. We have to prevent paging process. We will reduce the related funds. If the process is very long, we can increase the period of the operating system. We are saying, it is good. Operating System P1-10 post-pone process is done. I mean, we can wait for it for a long time. Now, we will reduce the related funds. We have to prevent paging process. If the process is very long, we can increase the period of the operating system. We are saying, it is good. You wait for a long time. Now, our priority increases.",
+        "evidence": [
+          {
+            "start": 375.61,
+            "end": 406.0,
+            "segment_id": 43,
+            "text": "Operating System P1-10 post-pone process is done. I mean, we can wait for it for a long time."
+          }
+        ]
+      }
+    }
+  ]
+}

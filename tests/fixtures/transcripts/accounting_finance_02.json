@@ -1,0 +1,32 @@
+{
+  "id": "accounting_finance_02",
+  "expected_domain": "accounting_finance",
+  "transcript": "Good morning class. Today we are looking at the fundamental distinction between profit and cash flow. Students often confuse the two. Profit is an accrual-based accounting measurement, jo ke calculate hota hai revenue minus expenditure se. Lekin cash flow ka matlab hai actual liquid cash moving in and out of the bank account. Aap credit pe goods sell karte hain, to revenue record ho jata hai, but until the customer actually pays cash into your account, you cannot spend that money to pay supplier bills or worker wages. This is why profitable businesses can still experience severe insolvency and liquidity crises. Also, non-cash expenses like depreciation reduce accounting profit on paper without consuming actual bank funds. Working capital management ensures you maintain enough current assets to cover immediate current liabilities.",
+  "expected_concepts": [
+    "profit",
+    "cash flow",
+    "accrual",
+    "revenue",
+    "expenditure",
+    "insolvency",
+    "liquidity",
+    "depreciation",
+    "working capital"
+  ],
+  "foreign_terms_to_watch": [
+    "fcfs",
+    "convoy effect",
+    "scheduling",
+    "burst time",
+    "supervised learning",
+    "neural network",
+    "gradient descent",
+    "reflex arc",
+    "sensory neuron",
+    "ohm's law",
+    "potential difference",
+    "sql",
+    "e-kyc",
+    "blockchain"
+  ]
+}
